@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm ~/.mixxx/midi/QUNEO_MIDI_1.midi.xml
+sudo cp ~/KANE_QuNeo.midi.xml ~/.mixxx/QUNEO_MIDI_1.midi.xml
+sudo cp ~/KANE_QuNeo_scripts.js /usr/share/mixxx/midi/
+sudo cp ~/KANE_QuNeo.midi.xml /usr/share/mixxx/midi/
+mixxx --midiDebug
