@@ -800,6 +800,16 @@
                     <normal/>
                 </options>
             </control>
+	    <!--<control>
+	      <status>0x91</status>
+	      <midino>0x08</midino>
+	      <group>[Channel1]</group>
+	      <key>KANE_QuNeo.player1Beats</key>
+	      <description></description>
+	      <options>
+		<Script-Binding/>
+	      </options>
+            </control>-->
             <control>
                 <status>0x91</status>
                 <midino>0x09</midino>
@@ -1786,7 +1796,7 @@
 			<status>0x90</status>  
 			<midino>0x08</midino>  
 			<on>0x7F</on>  
-			<off>0x00</off> 
+			<off>0x00</off>
 			<maximum>127</maximum>  
 			<minimum>1</minimum>
 		</output>  
