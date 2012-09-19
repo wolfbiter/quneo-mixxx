@@ -1120,46 +1120,6 @@
                     <normal/>
                 </options>
             </control>
-	    <!--<control>
-                <status>0xb4</status>
-                <midino>0x02</midino>
-                <group>[Sampler1]</group>
-                <key>volume</key>
-                <description></description>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <status>0xb4</status>
-                <midino>0x03</midino>
-                <group>[Sampler3]</group>
-                <key>volume</key>
-                <description></description>
-                <options>
-                    <normal/>
-		</options>
-            </control>
-            <control>
-                <status>0x92</status>
-                <midino>0x00</midino>
-                <group>[Sampler1]</group>
-                <key>play</key>
-                <description></description>
-                <options>
-                    <normal/>
-		</options>
-            </control>
-            <control>
-                <status>0x92</status>
-                <midino>0x01</midino>
-                <group>[Sampler3]</group>
-                <key>play</key>
-                <description></description>
-                <options>
-                    <normal/>
-		</options>
-            </control>-->
             <control>
                 <status>0xb4</status>
                 <midino>0x02</midino>
@@ -1180,10 +1140,10 @@
                     <normal/>
                 </options>
             </control>
-	    <!-- <control>
-                <status>0xb2</status>
-                <midino>0x06</midino>
-                <group>[Sampler2]</group>
+	    <control>
+                <status>0xb4</status>
+                <midino>0x04</midino>
+                <group>[Sampler1]</group>
                 <key>volume</key>
                 <description></description>
                 <options>
@@ -1191,7 +1151,27 @@
                 </options>
             </control>
             <control>
-                <status>0xb2</status>
+                <status>0xb4</status>
+                <midino>0x05</midino>
+                <group>[Sampler2]</group>
+                <key>volume</key>
+                <description></description>
+                <options>
+                    <normal/>
+		</options>
+            </control>
+	    <control>
+                <status>0xb4</status>
+                <midino>0x06</midino>
+                <group>[Sampler3]</group>
+                <key>volume</key>
+                <description></description>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <status>0xb4</status>
                 <midino>0x07</midino>
                 <group>[Sampler4]</group>
                 <key>volume</key>
@@ -1200,10 +1180,110 @@
                     <normal/>
 		</options>
             </control>
+	    <control>
+                <status>0xb4</status>
+                <midino>0x08</midino>
+                <group>[Channel1]</group>
+                <key>pregain</key>
+                <description></description>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <status>0xb4</status>
+                <midino>0x09</midino>
+                <group>[Channel1]</group>
+                <key>filterHigh</key>
+                <description></description>
+                <options>
+                    <normal/>
+		</options>
+            </control>
+	    <control>
+                <status>0xb4</status>
+                <midino>0x0a</midino>
+                <group>[Channel1]</group>
+                <key>filterMid</key>
+                <description></description>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <status>0xb4</status>
+                <midino>0x0b</midino>
+                <group>[Channel1]</group>
+                <key>filterLow</key>
+                <description></description>
+                <options>
+                    <normal/>
+		</options>
+            </control>
+	    <control>
+                <status>0xb4</status>
+                <midino>0x0c</midino>
+                <group>[Channel2]</group>
+                <key>pregain</key>
+                <description></description>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <status>0xb4</status>
+                <midino>0x0d</midino>
+                <group>[Channel2]</group>
+                <key>filterHigh</key>
+                <description></description>
+                <options>
+                    <normal/>
+		</options>
+            </control>
+	    <control>
+                <status>0xb4</status>
+                <midino>0x0e</midino>
+                <group>[Channel2]</group>
+                <key>filterMid</key>
+                <description></description>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <status>0xb4</status>
+                <midino>0x0f</midino>
+                <group>[Channel2]</group>
+                <key>filterLow</key>
+                <description></description>
+                <options>
+                    <normal/>
+		</options>
+            </control>
+            <control>
+                <status>0x92</status>
+                <midino>0x00</midino>
+                <group>[Sampler1]</group>
+                <key>play</key>
+                <description></description>
+                <options>
+                    <normal/>
+		</options>
+            </control>
+            <control>
+                <status>0x92</status>
+                <midino>0x01</midino>
+                <group>[Sampler2]</group>
+                <key>play</key>
+                <description></description>
+                <options>
+                    <normal/>
+		</options>
+            </control>
             <control>
                 <status>0x92</status>
                 <midino>0x02</midino>
-                <group>[Sampler2]</group>
+                <group>[Sampler3]</group>
                 <key>play</key>
                 <description></description>
                 <options>
@@ -1219,7 +1299,7 @@
                 <options>
                     <normal/>
 		</options>
-            </control>-->
+            </control>
 
 	    <!-- Rotaries - Scripts -->
 	    <control>

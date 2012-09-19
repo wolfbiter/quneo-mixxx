@@ -17,13 +17,12 @@ KANE_QuNeo.init = function (id) { // called when the device is opened & set up
    
   engine.connectControl("[Channel2]","visual_playposition","KANE_QuNeo.circle2LEDs");
 
-  engine.connectControl("[Channel1]","volume","KANE_QuNeo.player1Vol");		    
+//engine.connectControl("[Channel1]","volume","KANE_QuNeo.player1Vol");		   
+//engine.connectControl("[Channel2]","volume","KANE_QuNeo.player2Vol");		    
 
-  engine.connectControl("[Channel2]","volume","KANE_QuNeo.player2Vol");		    
-
-  engine.connectControl("[Channel1]","rate","KANE_QuNeo.player1Rate");
+  //engine.connectControl("[Channel1]","rate","KANE_QuNeo.player1Rate");
     
-  engine.connectControl("[Channel2]","rate","KANE_QuNeo.player2Rate");	
+  //engine.connectControl("[Channel2]","rate","KANE_QuNeo.player2Rate");	
 
 };
 
@@ -170,7 +169,7 @@ KANE_QuNeo.player1Beat = function (diff) {
 	    KANE_QuNeo.beatNumber[0] += 1;
     }
     // if we have moved more than a beat, this is not consecutive
-    else if (diff >= 1.5*spb || (diff < 0 && diff <= -1.5*spb)) {
+    else if (diff >= 1.1*spb || (diff < 0 && diff <= -1.1*spb)) {
 	
 	print("non consecutive beat!");
 	KANE_QuNeo.beatNumber[0] = 1; // so restart at beat 1
@@ -222,7 +221,7 @@ KANE_QuNeo.player2Beat = function (diff) {
 	    KANE_QuNeo.beatNumber[1] += 1;
     }
     // if we have moved more than a beat, this is not consecutive
-    else if (diff >= 1.5*spb || (diff < 0 && diff <= -1.5*spb)) {
+    else if (diff >= 1.1*spb || (diff < 0 && diff <= -1.1*spb)) {
 	
 	print("non consecutive beat!");
 	KANE_QuNeo.beatNumber[1] = 1; // so restart at beat 1
