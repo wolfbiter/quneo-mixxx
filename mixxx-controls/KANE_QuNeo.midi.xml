@@ -708,7 +708,7 @@
                     <normal/>
                 </options>
             </control>
-            <control>
+	    <!--<control>
                 <status>0x81</status>
                 <midino>0x03</midino>
                 <group>[Channel1]</group>
@@ -717,7 +717,7 @@
                 <options>
                     <normal/>
                 </options>
-            </control>
+	    </control>-->
             <control>
                 <status>0x91</status>
                 <midino>0x04</midino>
@@ -778,7 +778,7 @@
                     <normal/>
                 </options>
             </control>
-            <control>
+	    <!--<control>
                 <status>0x81</status>
                 <midino>0x07</midino>
                 <group>[Channel2]</group>
@@ -787,7 +787,7 @@
                 <options>
                     <normal/>
                 </options>
-            </control>
+	    </control>-->
 
 	    <!-- Play, Sync, Cue -->
             <control>
@@ -986,6 +986,26 @@
             </control>
 
 	    <!-- Horizontal Arrow Buttons -->
+	    <control>
+                <status>0x96</status>
+                <midino>0x00</midino>
+                <group>[Channel1]</group>
+                <key>keylock</key>
+                <description></description>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+	    <control>
+                <status>0x96</status>
+                <midino>0x01</midino>
+                <group>[Channel2]</group>
+                <key>keylock</key>
+                <description></description>
+                <options>
+                    <normal/>
+                </options>
+	    </control>
             <control>
                 <status>0x96</status>
                 <midino>0x04</midino>
@@ -1006,26 +1026,6 @@
                     <normal/>
                 </options>
             </control>
-	    <!--<control>
-                <status>0x96</status>
-                <midino>0x02</midino>
-                <group>[Channel1]</group>
-                <key>loop_in</key>
-                <description></description>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-	    <control>
-                <status>0x96</status>
-                <midino>0x03</midino>
-                <group>[Channel1]</group>
-                <key>loop_out</key>
-                <description></description>
-                <options>
-                    <normal/>
-                </options>
-	    </control>-->
             <control>
                 <status>0x96</status>
                 <midino>0x06</midino>
@@ -1361,10 +1361,22 @@
                 <options>
           			<Script-Binding/>
           		</options>
-            </control>-->
-        </controls>
-	<outputs>
+            </control>
 
+	    <!-- Transport Buttons -->
+            <control>
+                <status>0x97</status>
+                <midino>0x02</midino>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.togglePlayScratch</key>
+                <description></description>
+                <options>
+          			<Script-Binding/>
+          		</options>
+            </control>
+        </controls>
+
+	<outputs>
         <!-- Remote LED Settings -->
 
 	<!-- Hotcues -->
@@ -1730,29 +1742,9 @@
 		</output>
 		<output>
 			<group>[Channel1]</group>
-        	        <key>reloop_exit</key>
-			<status>0x90</status>  
-			<midino>0x00</midino>  
-			<on>0x7F</on>  
-			<off>0x00</off> 
-			<maximum>127</maximum>  
-			<minimum>1</minimum>
-		</output>  
-		<output>
-			<group>[Channel1]</group>
-        	        <key>reloop_exit</key>
+        	        <key>loop_enabled</key>
 			<status>0x90</status>  
 			<midino>0x01</midino>  
-			<on>0x00</on>  
-			<off>0x7F</off> 
-			<maximum>127</maximum>  
-			<minimum>1</minimum>
-		</output>  
-		<output>
-			<group>[Channel2]</group>
-        	        <key>reloop_exit</key>
-			<status>0x90</status>  
-			<midino>0x06</midino>  
 			<on>0x7F</on>  
 			<off>0x00</off> 
 			<maximum>127</maximum>  
@@ -1760,11 +1752,11 @@
 		</output>  
 		<output>
 			<group>[Channel2]</group>
-        	        <key>reloop_exit</key>
+        	        <key>loop_enabled</key>
 			<status>0x90</status>  
 			<midino>0x07</midino>  
-			<on>0x00</on>  
-			<off>0x7F</off> 
+			<on>0x7F</on>  
+			<off>0x00</off> 
 			<maximum>127</maximum>  
 			<minimum>1</minimum>
 		</output>  
@@ -1931,7 +1923,27 @@
 			<minimum>1</minimum>
 		</output>
 
-		<!-- Headphones/Flanger -->
+		<!-- Keylock/Headphones/Flanger -->
+		<output>
+			<group>[Channel1]</group>
+	                <key>keylock</key>
+			<status>0x90</status>  
+			<midino>0x24</midino>  
+			<on>0x7F</on>  
+			<off>0x00</off> 
+			<maximum>127</maximum>  
+			<minimum>1</minimum>
+		</output>      
+		<output>
+			<group>[Channel2]</group>
+	                <key>keylock</key>
+			<status>0x90</status>  
+			<midino>0x25</midino>  
+			<on>0x7F</on>  
+			<off>0x00</off> 
+			<maximum>127</maximum>  
+			<minimum>1</minimum>
+		</output>      
 		<output>
 			<group>[Channel1]</group>
 	                <key>pfl</key>

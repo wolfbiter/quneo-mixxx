@@ -3,6 +3,6 @@
 rm ~/.mixxx/midi/QUNEO_MIDI_1.midi.xml
 #rm ~/.mixxx/midi/Midi_Through_Port-0.midi.xml
 #sudo cp ./QUNEO_MIDI_1.midi.xml ~/.mixxx/midi/
-sudo cp ./KANE_QuNeo_scripts.js /usr/share/mixxx/midi/
-sudo cp ./KANE_QuNeo.midi.xml /usr/share/mixxx/midi/
-mixxx #--midiDebug
+sudo cp ./mixxx-controls/KANE_QuNeo_scripts.js /usr/share/mixxx/midi/
+sudo cp ./mixxx-controls/KANE_QuNeo.midi.xml /usr/share/mixxx/midi/
+mixxx --midiDebug
