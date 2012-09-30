@@ -1,3 +1,6 @@
+#Updates in progress.
+The last working and consistent commit is "updated folder scheme".
+
 #About
 
 This repository contains all the components necessary to link a QuNeo to Mixxx with
