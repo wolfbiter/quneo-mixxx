@@ -1781,6 +1781,78 @@
 	  <normal/>
 	</options>
       </control>
+      <control>
+	<status>0x93</status>
+	<midino>0x04</midino>
+	<group>[Channel1]</group>
+	<key>KANE_QuNeo.nudge1Forward</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x93</status>
+	<midino>0x05</midino>
+	<group>[Channel1]</group>
+	<key>KANE_QuNeo.nudge1Backward</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x93</status>
+	<midino>0x06</midino>
+	<group>[Channel2]</group>
+	<key>KANE_QuNeo.nudge2Forward</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x93</status>
+	<midino>0x07</midino>
+	<group>[Channel2]</group>
+	<key>KANE_QuNeo.nudge2Backward</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x83</status>
+	<midino>0x04</midino>
+	<group>[Channel1]</group>
+	<key>KANE_QuNeo.nudge1ForwardOff</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x83</status>
+	<midino>0x05</midino>
+	<group>[Channel1]</group>
+	<key>KANE_QuNeo.nudge1BackwardOff</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x83</status>
+	<midino>0x06</midino>
+	<group>[Channel2]</group>
+	<key>KANE_QuNeo.nudge2ForwardOff</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x83</status>
+	<midino>0x07</midino>
+	<group>[Channel2]</group>
+	<key>KANE_QuNeo.nudge2BackwardOff</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
 
       <!-- Vertical Sliders -->
       <control>
@@ -3060,7 +3132,7 @@
 	<off>0x00</off> 
 	<maximum>127</maximum>  
 	<minimum>1</minimum>
-      </output>      
+      </output>
       <output>
 	<group>[Channel1]</group>
 	<key>pfl</key>
