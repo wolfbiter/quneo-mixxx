@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# make sure to change musicdir for all exports, if you change one.
+MUSICDIR="/home/kane/projects/quneo-mixxx/music/"
+
+# exports mixxx configs and newest music to given location
+
+# make sure there is a first arg
+if [ -z $1 ]; then
+	echo "usage: first arg is the target dir"
+	return -1
+fi
+
+# requires location to export to as first arg $1
+USB=$1
+echo "exporting configs to uri: "$USB
+
+# delete old versions, if they exist
+#sudo rm -rf $USB/quneo-mixxx/.mixxx
+#sudo rm -rf $USB/quneo-mixxx/music/RealBest/added
+
+# find where script is located
+DIR=$(cd $(dirname "$0"); pwd)
+
+# update this installation's information
+cp -vrf ~/.mixxx/* $DIR/../.mixxx/
+cp -rvf $MUSICDIR/RealBest/added/* $DIR/../music/RealBest/added/
+
+# copy most recent stuff to $1's quneo-mixxx directory
+sudo cp -r ~/.mixxx/* $USB/quneo-mixxx/.mixxx/
+sudo cp -r $DIR/../music/RealBest/added/* $USB/quneo-mixxx/music/RealBest/added/
+

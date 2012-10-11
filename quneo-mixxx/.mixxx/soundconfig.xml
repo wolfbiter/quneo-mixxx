@@ -1,0 +1,6 @@
+<!DOCTYPE SoundManagerConfig>
+<SoundManagerConfig latency="5" api="ALSA" samplerate="48000">
+ <SoundDevice name="0, Xonar DX: Digital (hw:0,1)">
+  <output channel="0" type="Master" index="0"/>
+ </SoundDevice>
+</SoundManagerConfig>

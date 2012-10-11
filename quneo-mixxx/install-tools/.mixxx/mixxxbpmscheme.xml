@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Mixxx_BPM_Scheme_List>
+<Mixxx_BPM_Scheme_List>
+ <Schemes>
+  <Scheme>
+   <Name>Default</Name>
+   <MinBpm>70</MinBpm>
+   <MaxBpm>140</MaxBpm>
+   <AnalyzeEntireSong>0</AnalyzeEntireSong>
+   <Comment></Comment>
+  </Scheme>
+ </Schemes>
+</Mixxx_BPM_Scheme_List>

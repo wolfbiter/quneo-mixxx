@@ -1,0 +1,468 @@
+Debug [Main]: Mixxx 1.11.0-beta2-pre "(bzr trunk r3298; built on: Sep 24 2012 @ 04:30:36; flags: bulk hid hifieq mad optimize=6 qdebug shoutcast vamp verbose vinylcontrol)" is starting... 
+Debug [Main]: Qt version is: 4.8.2 
+Warning [Main]: Configuration file is at version "1.11.0" instead of the current 1.11.0-beta2-pre 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: Loading translations for locale "en_US" from translations folder "/home/kane/projects/quneo-mixxx/mixxx/res/translations/" : fail 
+Debug [Main]: ConfigObject: Could not read "" 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Channel1]" , "vinylcontrol_mode" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Channel2]" , "vinylcontrol_mode" ) 
+Debug [Main]: JACK client name set 
+Debug [Main]: Available QtSQL drivers: ("QSQLITE") 
+Debug [Main]: DB status: "/home/kane/.mixxx/mixxxdb.sqlite" = true 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: SchemaManager::upgradeToSchemaVersion already at version 17 
+Debug [Main]: TrackDAO::initialize QThread(0x2bc13b0, name = "Main") "qt_sql_default_connection" 
+Debug [Main]: CrateDAO::initialize() 
+Debug [Main]: CueDAO::initialize QThread(0x2bc13b0, name = "Main") "qt_sql_default_connection" 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: Promo dir: "/home/kane/projects/quneo-mixxx/mixxx/res/promo/1.8.0/index.html" 
+Debug [Main]: Default quick links: ("/home/kane/projects/quneo-mixxx/music/", "/home/kane/Music", "/home/kane/Downloads/", "/home/kane/Desktop/", "/home/kane/Documents/") 
+Debug [Main]: Appending Quick Link:  "music" --- "/home/kane/projects/quneo-mixxx/music/" 
+Debug [Main]: Appending Quick Link:  "Musi" --- "/home/kane/Music" 
+Debug [Main]: Appending Quick Link:  "Downloads" --- "/home/kane/Downloads/" 
+Debug [Main]: Appending Quick Link:  "Desktop" --- "/home/kane/Desktop/" 
+Debug [Main]: Appending Quick Link:  "Documents" --- "/home/kane/Documents/" 
+Debug [Main]: Creating session history playlist name: "2012-10-05 (7)" 
+Debug [Main]: Committing transaction on "qt_sql_default_connection" result: true 
+Debug [Main]: Traktor Library Location=[ "/home/kane/collection.nml" ] 
+Debug [Main]: AnalyserWaveform::AnalyserWaveform() 
+Debug [Main]: Setting VAMP_PATH to:  "/home/kane/.mixxx/plugins/vamp/:/home/kane/projects/quneo-mixxx/mixxx/lin32_build/vamp-plugins:/home/kane/projects/quneo-mixxx/mixxx/lin64_build/vamp-plugins" 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDepth" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoPeriod" ) 
+Debug [Main]: Constructed LibraryScanner 
+Debug [Main]: iTunes Album Art path is: "" 
+Debug [Main]: Creating ControllerManager 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: MISSING <info> ELEMENT:  "/home/kane/projects/quneo-mixxx/mixxx/res/controllers/KMI QuNeo.midi.xml" 
+Debug [Main]: Extension ".hid.xml" total 6 presets 
+Debug [Main]: Extension ".midi.xml" total 62 presets 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: Promo dir: "/home/kane/projects/quneo-mixxx/mixxx/res/promo/1.8.0/index.html" 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: Setting VAMP_PATH to:  "/home/kane/.mixxx/plugins/vamp/:/home/kane/projects/quneo-mixxx/mixxx/lin32_build/vamp-plugins:/home/kane/projects/quneo-mixxx/mixxx/lin64_build/vamp-plugins:/home/kane/.mixxx/plugins/vamp/:/home/kane/projects/quneo-mixxx/mixxx/lin32_build/vamp-plugins:/home/kane/projects/quneo-mixxx/mixxx/lin64_build/vamp-plugins" 
+Debug [Main]: VampPluginLoader::listPlugins() returned 2 plugins 
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:0" "Bar and Beat Tracker" 
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:1" "Bar and Beat Tracker" 
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:2" "Bar and Beat Tracker" 
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:3" "Bar and Beat Tracker" 
+Debug [Main]: Plugin output displayname: "qm-tempotracker:0" "Queen Mary Tempo and Beat Tracker" 
+Debug [Main]: Plugin output displayname: "qm-tempotracker:1" "Queen Mary Tempo and Beat Tracker" 
+Debug [Main]: Plugin output displayname: "qm-tempotracker:2" "Queen Mary Tempo and Beat Tracker" 
+Debug [Main]: ControllerManager::getControllerList 
+Debug [Main]: SoundManager::setupDevices() 
+Debug [Main]: SoundDevicePortAudio::open() "7, system" 
+Debug [Main]: framesPerBuffer: 1024 
+Debug [Main]: Requested sample rate:  48000 Hz, latency: 21.3333 ms 
+Debug [Main]: Output channels: 4 | Input channels: 0 
+Debug [Main]: Opening stream with id 7 
+Debug [Main]: Opened PortAudio stream successfully... starting 
+Debug [Main]: Dynamically loaded PortAudio library 
+Debug [Main]: PortAudio: Started stream successfully 
+Debug [Main]:    Actual sample rate:  48000 Hz, latency: 0 ms 
+Debug [Main]: Using "system" as output sound device clock reference 
+Debug [Main]: 1 output sound devices opened 
+Debug [Main]: 0 input  sound devices opened 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Samplers]" , "show_samplers" ) 
+Warning [Main]: Requested control does not exist: "[Samplers],show_samplers" . Creating it. 
+Debug [Main]: Making property binder for "visible" 
+Warning [Main]: Object::connect: No such slot QGroupBox::setProperty(const char*, const QVariant&) in src/skin/propertybinder.cpp:15
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Sampler1]" , "" ) 
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Sampler2]" , "" ) 
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Sampler3]" , "" ) 
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Sampler4]" , "" ) 
+Debug [Main]: Setting qResourcePath from location in resourcePath commandline arg: "/home/kane/projects/quneo-mixxx/mixxx/res/" 
+Debug [Main]: BaseTrackCache(0x2ebff90) updateIndexWithQuery took 18 ms 
+Debug [Main]: PlaylistTableModel(0x3daf380) select() took 22 ms 
+Debug [Main]: Recordings folder set to "/home/kane/Music/Mixxx/Recordings" 
+Debug [Main]: PrepareLibraryTableModel(0x41640e0) select() took 9 ms 
+Debug [Main]: PrepareLibraryTableModel(0x41640e0) select() took 9 ms 
+Debug [Main]: PrepareLibraryTableModel(0x41640e0) select() took 9 ms 
+Debug [Main]: DlgPrepare(0x4115520, name = "DlgPrepare") analysisActive false 
+Debug [Main]: MixxxLibraryFeature::activate() 
+Debug [Main]: LibraryTableModel(0x2ed1b70) select() took 12 ms 
+Debug [Main]: WSearchLineEdit::restoreSearch( "" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Vinylcontrol]" , "show_vinylcontrol" ) 
+Warning [Main]: Requested control does not exist: "[Vinylcontrol],show_vinylcontrol" . Creating it. 
+Debug [Main]: Making property binder for "visible" 
+Warning [Main]: Object::connect: No such slot QGroupBox::setProperty(const char*, const QVariant&) in src/skin/propertybinder.cpp:15
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Microphone]" , "show_microphone" ) 
+Warning [Main]: Requested control does not exist: "[Microphone],show_microphone" . Creating it. 
+Debug [Main]: Making property binder for "visible" 
+Warning [Main]: Object::connect: No such slot QGroupBox::setProperty(const char*, const QVariant&) in src/skin/propertybinder.cpp:15
+Warning [Main]: QGLContext::makeCurrent(): Cannot make invalid context current.
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Channel1]" , "" ) 
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 0 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Spinny1]" , "show_spinny" ) 
+Warning [Main]: Requested control does not exist: "[Spinny1],show_spinny" . Creating it. 
+Debug [Main]: Making property binder for "visible" 
+Warning [Main]: Object::connect: No such slot QGroupBox::setProperty(const char*, const QVariant&) in src/skin/propertybinder.cpp:15
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Channel1]" , "" ) 
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Channel2]" , "" ) 
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 1 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Spinny2]" , "show_spinny" ) 
+Warning [Main]: Requested control does not exist: "[Spinny2],show_spinny" . Creating it. 
+Debug [Main]: Making property binder for "visible" 
+Warning [Main]: Object::connect: No such slot QGroupBox::setProperty(const char*, const QVariant&) in src/skin/propertybinder.cpp:15
+Warning [Main]: WaveformSignalColors::fallBackFromSignalColor - skin do not provide low/mid/high signal colors 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Channel2]" , "" ) 
+Debug [Main]: Displaying mixxx 
+Debug [Controller]: ControllerManager: Setting up devices 
+Debug [Controller]: Scanning PortMIDI devices: 
+Debug [Controller]:  Found output device # 0 Midi Through Port-0 
+Debug [Controller]:  Found output device # 2 Midi Through Port-1 
+Debug [Controller]:  Found output device # 4 Midi Through Port-2 
+Debug [Controller]:  Found output device # 6 Midi Through Port-3 
+Debug [Controller]:  Found output device # 8 VirMIDI 4-0 
+Debug [Controller]:  Found output device # 10 VirMIDI 4-1 
+Debug [Controller]:  Found output device # 12 VirMIDI 4-2 
+Debug [Controller]:  Found output device # 14 VirMIDI 4-3 
+Debug [Controller]:  Found output device # 16 qjackctl 
+Debug [Controller]:  Found input device # 1 Midi Through Port-0 
+Debug [Controller]:     Linking to output device # 0 "Midi Through Port-0" 
+Debug [Controller]:  Found input device # 3 Midi Through Port-1 
+Debug [Controller]:     Linking to output device # 2 "Midi Through Port-1" 
+Debug [Controller]:  Found input device # 5 Midi Through Port-2 
+Debug [Controller]:     Linking to output device # 4 "Midi Through Port-2" 
+Debug [Controller]:  Found input device # 7 Midi Through Port-3 
+Debug [Controller]:     Linking to output device # 6 "Midi Through Port-3" 
+Debug [Controller]:  Found input device # 9 VirMIDI 4-0 
+Debug [Controller]:     Linking to output device # 8 "VirMIDI 4-0" 
+Debug [Controller]:  Found input device # 11 VirMIDI 4-1 
+Debug [Controller]:     Linking to output device # 10 "VirMIDI 4-1" 
+Debug [Controller]:  Found input device # 13 VirMIDI 4-2 
+Debug [Controller]:     Linking to output device # 12 "VirMIDI 4-2" 
+Debug [Controller]:  Found input device # 15 VirMIDI 4-3 
+Debug [Controller]:     Linking to output device # 14 "VirMIDI 4-3" 
+Debug [Controller]: Scanning USB Bulk devices: 
+Debug [Controller]: Scanning HID devices: 
+Debug [Controller]: Found 0x0 0x0 "r257" S/N 0x0 "Interface 0" 
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers. 
+Debug [Controller]: Found 0x0 0x0 "r256" S/N 0x0 "Interface 0" 
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers. 
+Debug [Controller]: ControllerManager::getControllerList 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/Midi_Through_Port-0.midi.xml" 
+Debug [Main]: resize QSize(1920, 1005) 
+Debug [Controller]: "Midi" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/Midi_Through_Port-1.midi.xml" 
+Debug [Controller]: "Midi" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/Midi_Through_Port-2.midi.xml" 
+Debug [Controller]: "Midi" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/Midi_Through_Port-3.midi.xml" 
+Debug [Controller]: "Midi" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/VirMIDI_4-0.midi.xml" 
+Debug [Controller]: "VirMIDI" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/VirMIDI_4-1.midi.xml" 
+Debug [Controller]: "VirMIDI" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/VirMIDI_4-2.midi.xml" 
+Debug [Controller]: "VirMIDI" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Loading controller preset from "/home/kane/.mixxx/controllers/VirMIDI_4-3.midi.xml" 
+Debug [Controller]: "VirMIDI" settings found 
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete. 
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete. 
+Debug [Controller]: Controller polling stopped. 
+Debug [Main]: Running Mixxx 
+Debug [Main]: ControllerManager::getControllerList 
+Warning [Main]: WaveformRenderBackground::generatePixmap - file( "/home/kane/projects/quneo-mixxx/mixxx/res/skins/Deere1920x1080-FullHD/style/style_bg_waveform.png" ) 495 x 119 do not fit the waveform widget size 735 x 119 
+Warning [Main]: WaveformRenderBackground::generatePixmap - file( "/home/kane/projects/quneo-mixxx/mixxx/res/skins/Deere1920x1080-FullHD/style/style_bg_waveform.png" ) 495 x 119 do not fit the waveform widget size 733 x 119 
+Debug [Main]: guess the size of the window decoration 
+Debug [Main]: DlgPrefVinyl::Apply 
+Debug [Main]: in VinylGainSlotApply() with gain: 1 
+Debug [Controller]: ControllerManager::getControllerList 
+Debug [Controller]: Saving preset for "Midi Through Port-0" to "/home/kane/.mixxx/controllers/Midi_Through_Port-0.midi.xml" 
+Debug [Controller]:   writing script block for "KMI-QuNeo-scripts.js" 
+Debug [Controller]: Saving preset for "Midi Through Port-1" to "/home/kane/.mixxx/controllers/Midi_Through_Port-1.midi.xml" 
+Debug [Controller]:   writing script block for "KMI-QuNeo-scripts.js" 
+Debug [Controller]: Saving preset for "Midi Through Port-2" to "/home/kane/.mixxx/controllers/Midi_Through_Port-2.midi.xml" 
+Debug [Controller]: Saving preset for "Midi Through Port-3" to "/home/kane/.mixxx/controllers/Midi_Through_Port-3.midi.xml" 
+Debug [Controller]: Saving preset for "VirMIDI 4-0" to "/home/kane/.mixxx/controllers/VirMIDI_4-0.midi.xml" 
+Debug [Controller]:   writing script block for "KANE_QuNeo_scripts.js" 
+Debug [Controller]: Saving preset for "VirMIDI 4-1" to "/home/kane/.mixxx/controllers/VirMIDI_4-1.midi.xml" 
+Debug [Controller]:   writing script block for "KANE_QuNeo_scripts.js" 
+Debug [Controller]: Saving preset for "VirMIDI 4-2" to "/home/kane/.mixxx/controllers/VirMIDI_4-2.midi.xml" 
+Debug [Controller]: Saving preset for "VirMIDI 4-3" to "/home/kane/.mixxx/controllers/VirMIDI_4-3.midi.xml" 
+Debug [Main]: CrateTableModel(0x2edbcd0) select() took 1 ms 
+Debug [Main]: WSearchLineEdit::restoreSearch( "" ) 
+Debug [Main]: New BeatGrid 
+Debug [Main]: Successfully deserialized BeatGrid 
+Debug [Main]: m_sTracks.count() = 1 
+Debug [AnalyserQueue 1]: Prioritizing "WTF (Original Mix)" "/home/kane/projects/quneo-mixxx/music/RealBest/Beatport Top 100 June (2012) 320KB TBS/Music/03  - Nicky Romero Vs. ZROQ - WTF (Original Mix).mp3" 
+Debug [AnalyserQueue 1]: Analyzing "WTF (Original Mix)" "/home/kane/projects/quneo-mixxx/music/RealBest/Beatport Top 100 June (2012) 320KB TBS/Music/03  - Nicky Romero Vs. ZROQ - WTF (Original Mix).mp3" 
+Debug [AnalyserQueue 1]: AnalysisDAO fetched 2 analyses, 3145465 bytes for track 622 in 23 ms 
+Debug [AnalyserQueue 1]: Reading waveform from byte array: allSignalSize 321386 visualSampleRate 441 audioVisualRatio 100 
+Debug [AnalyserQueue 1]: Reading waveform from byte array: allSignalSize 3842 visualSampleRate 5.26945 audioVisualRatio 8369 
+Debug [AnalyserQueue 1]: AnalyserWaveform::initialise - Waveform loaded 
+Debug [AnalyserQueue 1]: Beat calculation skips analyzing because the track has a BPM computed by a previous Mixxx version and user preferences indicate we should not change it. 
+Debug [AnalyserQueue 1]: Beat calculation will not start 
+Debug [AnalyserQueue 1]: Skipping track analysis because no analyser initialized. 
+Debug [Main]: MissingTableModel(0x2ed1e50) select() took 6 ms 
+Debug [Main]: WSearchLineEdit::restoreSearch( "" ) 
+Debug [Main]: Committing transaction on "qt_sql_default_connection" result: true 
+Debug [Main]: PlaylistTableModel(0x2ef8d50) select() took 2 ms 
+Debug [Main]: Destroying MixxxApp 
+Debug [Main]: save config  1 
+Debug [Main]: delete soundmanager  1 
+Debug [Main]: delete vinylcontrolmanager  186 
+Debug [Main]: delete view  186 
+Debug [Main]: ~DlgTrackInfo() 
+Debug [Main]: ~WLibraryTableView 
+Debug [Main]: ~DlgTrackInfo() 
+Debug [Main]: ~WLibraryTableView 
+Debug [Main]: ~DlgAutoDJ() 
+Debug [Main]: ~DlgTrackInfo() 
+Debug [Main]: ~WLibraryTableView 
+Debug [Main]: ~DlgTrackInfo() 
+Debug [Main]: ~WLibraryTableView 
+Debug [Main]: delete SkinLoader  573 
+Debug [Main]: shutdown & delete ControllerManager  573 
+Debug [Controller]: Controller polling stopped. 
+Debug [Controller]: Deleting PortMIDI devices... 
+Debug [Controller]: PortMIDI device "Midi Through Port-0" already closed 
+Debug [Controller]: PortMIDI device "Midi Through Port-1" already closed 
+Debug [Controller]: PortMIDI device "Midi Through Port-2" already closed 
+Debug [Controller]: PortMIDI device "Midi Through Port-3" already closed 
+Debug [Controller]: PortMIDI device "VirMIDI 4-0" already closed 
+Debug [Controller]: PortMIDI device "VirMIDI 4-1" already closed 
+Debug [Controller]: PortMIDI device "VirMIDI 4-2" already closed 
+Debug [Controller]: PortMIDI device "VirMIDI 4-3" already closed 
+Debug [Controller]: Deleting USB Bulk devices... 
+Debug [Controller]: Deleting HID devices... 
+Debug [Main]: delete playerManager  574 
+Debug [Main]: AnalyserWaveform::~AnalyserWaveform() 
+Debug [Main]: delete m_pEngine  575 
+Debug [Main]: in ~EngineMaster() 
+Debug [Main]: ~EngineMicrophone() 
+Debug [Main]: delete library scanner  588 
+Debug [Main]: Committing transaction on "qt_sql_default_connection" result: true 
+Debug [Main]: LibraryScanner destroyed 
+Debug [Main]: ~TrackDAO() 
+Debug [Main]: delete library  589 
+Debug [Main]: ~TrackCollection() 
+Debug [Main]: Committing transaction on "qt_sql_default_connection" result: true 
+Debug [Main]: BaseTrackCache(0x2ebff90) updateIndexWithQuery took 0 ms 
+Debug [Main]: Clearing played information for this session 
+Debug [Main]: ~TrackDAO() 
+Debug [Main]: delete RecordingManager  891 
+Debug [Main]: Delete RecordingManager 
+Debug [Main]: delete config  901 
+Debug [Main]: WARNING: The following 180 controls were leaked: 
+Debug [Main]: "[Sampler1]" "beatlooproll_32_activate" 
+Debug [Main]: "[Channel4]" "visual_bpm" 
+Debug [Main]: "[Flanger]" "lfoDepth_down_small" 
+Debug [Main]: "[Sampler3]" "beatlooproll_8_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_32_activate" 
+Debug [Main]: "[Flanger]" "lfoPeriod_minus_toggle" 
+Debug [Main]: "[Channel3]" "beatlooproll_16_activate" 
+Debug [Main]: "[Sampler3]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Channel1]" "visual_bpm" 
+Debug [Main]: "[Sampler1]" "beatlooproll_16_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_8_activate" 
+Debug [Main]: "[Sampler3]" "start_stop" 
+Debug [Main]: "[Channel3]" "beatlooproll_8_activate" 
+Debug [Main]: "[Channel4]" "beatlooproll_16_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Channel2]" "visual_bpm" 
+Debug [Main]: "[Sampler2]" "beatlooproll_16_activate" 
+Debug [Main]: "[Sampler2]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[Channel1]" "beatlooproll_32_activate" 
+Debug [Main]: "[Sampler4]" "start_stop" 
+Debug [Main]: "[Channel4]" "beatlooproll_8_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay_down" 
+Debug [Main]: "[Sampler1]" "beatlooproll_64_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay_down_small" 
+Debug [Main]: "[Sampler3]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Sampler1]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[Channel2]" "beatlooproll_32_activate" 
+Debug [Main]: "[Sampler3]" "beatlooproll_4_activate" 
+Debug [Main]: "[Channel3]" "beatlooproll_1_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_64_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_4_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay" 
+Debug [Main]: "[Channel4]" "beatlooproll_1_activate" 
+Debug [Main]: "[Channel1]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay_toggle" 
+Debug [Main]: "[Channel1]" "beatlooproll_64_activate" 
+Debug [Main]: "[Sampler1]" "beatlooproll_1_activate" 
+Debug [Main]: "[Flanger]" "lfoDepth_toggle" 
+Debug [Main]: "[Channel2]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay_set_zero" 
+Debug [Main]: "[Flanger]" "lfoDepth_set_default" 
+Debug [Main]: "[Channel2]" "beatlooproll_64_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_1_activate" 
+Debug [Main]: "[Channel3]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay_set_one" 
+Debug [Main]: "[Flanger]" "lfoDelay_set_default" 
+Debug [Main]: "[Flanger]" "lfoPeriod_up" 
+Debug [Main]: "[Channel4]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Sampler1]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Channel1]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Channel1]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Playlist]" "SelectTrackKnob" 
+Debug [Main]: "[VinylControl]" "gain" 
+Debug [Main]: "[Flanger]" "lfoPeriod_set_one" 
+Debug [Main]: "[Channel2]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Channel3]" "vinylcontrol_scratching" 
+Debug [Main]: "[Playlist]" "SelectPrevTrack" 
+Debug [Main]: "[Channel2]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Channel1]" "beatlooproll_16_activate" 
+Debug [Main]: "[Flanger]" "lfoDepth_up_small" 
+Debug [Main]: "[Channel4]" "vinylcontrol_scratching" 
+Debug [Main]: "[Playlist]" "LoadSelectedIntoFirstStopped" 
+Debug [Main]: "[Sampler1]" "beatlooproll_2_activate" 
+Debug [Main]: "[Channel3]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Channel2]" "beatlooproll_16_activate" 
+Debug [Main]: "[Channel1]" "beatlooproll_4_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_2_activate" 
+Debug [Main]: "[Channel2]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[Channel4]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Flanger]" "lfoPeriod_down_small" 
+Debug [Main]: "[Flanger]" "lfoPeriod_set_zero" 
+Debug [Main]: "[Channel2]" "beatlooproll_4_activate" 
+Debug [Main]: "[Sampler3]" "beatlooproll_32_activate" 
+Debug [Main]: "[Channel1]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[Controls]" "ShowDurationRemaining" 
+Debug [Main]: "[Flanger]" "lfoDepth_set_minus_one" 
+Debug [Main]: "[Flanger]" "lfoPeriod_set_minus_one" 
+Debug [Main]: "[Sampler4]" "beatlooproll_32_activate" 
+Debug [Main]: "[Channel4]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[VinylControl]" "mode" 
+Debug [Main]: "[Channel3]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Sampler3]" "beatlooproll_16_activate" 
+Debug [Main]: "[Recording]" "toggle_recording" 
+Debug [Main]: "[Channel1]" "beatlooproll_8_activate" 
+Debug [Main]: "[Channel3]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[Channel4]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_16_activate" 
+Debug [Main]: "[Sampler3]" "beatlooproll_1_activate" 
+Debug [Main]: "[Channel3]" "beatlooproll_2_activate" 
+Debug [Main]: "[Sampler1]" "visual_bpm" 
+Debug [Main]: "[Channel1]" "vinylcontrol_scratching" 
+Debug [Main]: "[Channel2]" "beatlooproll_8_activate" 
+Debug [Main]: "[Sampler3]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Sampler3]" "beatlooproll_64_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_1_activate" 
+Debug [Main]: "[Channel4]" "beatlooproll_2_activate" 
+Debug [Main]: "[Sampler2]" "visual_bpm" 
+Debug [Main]: "[Channel2]" "vinylcontrol_scratching" 
+Debug [Main]: "[Channel3]" "start_stop" 
+Debug [Main]: "[Channel1]" "beatlooproll_1_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Sampler4]" "beatlooproll_64_activate" 
+Debug [Main]: "[Flanger]" "lfoPeriod_down" 
+Debug [Main]: "[Channel4]" "start_stop" 
+Debug [Main]: "[Channel2]" "beatlooproll_1_activate" 
+Debug [Main]: "[Sampler2]" "slip_enabled" 
+Debug [Main]: "[Flanger]" "lfoDelay_up" 
+Debug [Main]: "[Sampler1]" "start_stop" 
+Debug [Main]: "[Sampler1]" "slip_enabled" 
+Debug [Main]: "[Flanger]" "lfoPeriod_toggle" 
+Debug [Main]: "[Playlist]" "SelectNextTrack" 
+Debug [Main]: "[Sampler2]" "start_stop" 
+Debug [Main]: "[Flanger]" "lfoPeriod" 
+Debug [Main]: "[Sampler4]" "slip_enabled" 
+Debug [Main]: "[Sampler3]" "beatlooproll_2_activate" 
+Debug [Main]: "[Flanger]" "lfoDepth_set_zero" 
+Debug [Main]: "[Flanger]" "lfoDepth_minus_toggle" 
+Debug [Main]: "[Sampler3]" "visual_bpm" 
+Debug [Main]: "[Sampler3]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Sampler3]" "slip_enabled" 
+Debug [Main]: "[Sampler4]" "beatlooproll_2_activate" 
+Debug [Main]: "[Sampler1]" "beatlooproll_8_activate" 
+Debug [Main]: "[Sampler1]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Channel4]" "slip_enabled" 
+Debug [Main]: "[Sampler2]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Sampler4]" "visual_bpm" 
+Debug [Main]: "[Sampler4]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_8_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_0.125_activate" 
+Debug [Main]: "[Shoutcast]" "status" 
+Debug [Main]: "[Channel3]" "slip_enabled" 
+Debug [Main]: "[Sampler1]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Flanger]" "lfoDepth" 
+Debug [Main]: "[Flanger]" "lfoDepth_set_one" 
+Debug [Main]: "[Channel4]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Channel3]" "beatlooproll_32_activate" 
+Debug [Main]: "[Sampler1]" "vinylcontrol_scratching" 
+Debug [Main]: "[Sampler1]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Channel3]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Channel4]" "beatlooproll_32_activate" 
+Debug [Main]: "[Sampler1]" "beatlooproll_4_activate" 
+Debug [Main]: "[Flanger]" "lfoDepth_up" 
+Debug [Main]: "[Flanger]" "lfoPeriod_up_small" 
+Debug [Main]: "[Sampler2]" "vinylcontrol_scratching" 
+Debug [Main]: "[Sampler2]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Channel2]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Sampler2]" "beatlooproll_4_activate" 
+Debug [Main]: "[Playlist]" "SelectPrevPlaylist" 
+Debug [Main]: "[Sampler1]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Sampler3]" "vinylcontrol_scratching" 
+Debug [Main]: "[Playlist]" "SelectNextPlaylist" 
+Debug [Main]: "[Channel1]" "start_stop" 
+Debug [Main]: "[Channel1]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Channel3]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Sampler2]" "beatlooproll_0.0625_activate" 
+Debug [Main]: "[Sampler4]" "vinylcontrol_scratching" 
+Debug [Main]: "[Channel3]" "beatlooproll_64_activate" 
+Debug [Main]: "[Channel2]" "start_stop" 
+Debug [Main]: "[Channel1]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Channel4]" "beatlooproll_0.5_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay_set_minus_one" 
+Debug [Main]: "[Sampler4]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[Channel2]" "slip_enabled" 
+Debug [Main]: "[Sampler4]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Channel4]" "beatlooproll_64_activate" 
+Debug [Main]: "[Channel2]" "beatlooproll_0.25_activate" 
+Debug [Main]: "[Sampler3]" "vinylcontrol_signal_enabled" 
+Debug [Main]: "[Flanger]" "lfoDepth_down" 
+Debug [Main]: "[Channel1]" "beatlooproll_2_activate" 
+Debug [Main]: "[Channel1]" "slip_enabled" 
+Debug [Main]: "[Sampler3]" "vinylcontrol_wantenabled" 
+Debug [Main]: "[Flanger]" "lfoDelay_minus_toggle" 
+Debug [Main]: "[Flanger]" "lfoPeriod_set_default" 
+Debug [Main]: "[Channel3]" "beatlooproll_4_activate" 
+Debug [Main]: "[Channel2]" "beatlooproll_2_activate" 
+Debug [Main]: "[Channel3]" "visual_bpm" 
+Debug [Main]: "[Channel4]" "beatlooproll_4_activate" 
+Debug [Main]: "[Flanger]" "lfoDelay_up_small" 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_toggle" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_set_zero" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_set_one" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_set_default" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_up" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDepth_set_one" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDepth_up" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoPeriod_up_small" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_set_minus_one" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDepth_down" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_minus_toggle" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoPeriod_set_default" ) 
+Warning [Main]: ControlObject::getControl returning NULL for ( "[Flanger]" , "lfoDelay_up_small" ) 
+Debug [Main]: ~MixxxApp: All leaking controls deleted. 
+Debug [Main]: Mixxx shutdown complete with code 0 

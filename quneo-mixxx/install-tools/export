@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# exports everything necessary to duplicate this version of quneo-mixxx on
+# another computer.
+
+# make sure there is a first arg
+if [ -z $1 ]; then
+	echo "usage: first arg is the target dir"
+	return -1
+fi
+
+# requires location to export to as first arg $1
+USB=$1
+echo "exporting configs to uri: "$USB
+
+# delete old version, if exists
+sudo rm -rf $USB/quneo-mixxx
+
+# make new root folder
+sudo mkdir $USB/quneo-mixxx
+
+# find where script is located
+DIR=$(cd $(dirname "$0"); pwd)
+
+# export music and configs
+$DIR/export-configs
+$DIR/export-music
+
+# copy whole quneo-mixxx folder to location, minus subdirs music/ mixxx/
+# and .git/
+sudo rsync -av $DIR/../../quneo-mixxx $USB/ --exclude=mixxx --exclude=.git --exclude=music
