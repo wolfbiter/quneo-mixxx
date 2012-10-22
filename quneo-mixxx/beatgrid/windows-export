@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+
+
+
+
+
+# find where script is located
+DIR=$(cd $(dirname "$0"); pwd)
