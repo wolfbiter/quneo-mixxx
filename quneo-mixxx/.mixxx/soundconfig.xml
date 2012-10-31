@@ -1,7 +1,7 @@
 <!DOCTYPE SoundManagerConfig>
 <SoundManagerConfig latency="5" api="JACK Audio Connection Kit" samplerate="48000">
  <SoundDevice name="7, system">
-  <output channel="0" type="Master" index="0"/>
   <output channel="2" type="Headphones" index="0"/>
+  <output channel="0" type="Master" index="0"/>
  </SoundDevice>
 </SoundManagerConfig>

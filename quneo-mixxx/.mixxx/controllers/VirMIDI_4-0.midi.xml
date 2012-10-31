@@ -2192,7 +2192,8 @@
                 <group>[Channel1]</group>
                 <key>cue_default</key>
                 <status>0x91</status>
-                <midino>0x07</midino>
+                <midino>0x06</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2200,8 +2201,7 @@
                 <group>[Channel1]</group>
                 <key>cue_default</key>
                 <status>0x91</status>
-                <midino>0x06</midino>
-                <off>0x7F</off>
+                <midino>0x07</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2279,7 +2279,8 @@
                 <group>[Channel2]</group>
                 <key>cue_default</key>
                 <status>0x91</status>
-                <midino>0x09</midino>
+                <midino>0x08</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2287,8 +2288,7 @@
                 <group>[Channel2]</group>
                 <key>cue_default</key>
                 <status>0x91</status>
-                <midino>0x08</midino>
-                <off>0x7F</off>
+                <midino>0x09</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2359,7 +2359,7 @@
                 <group>[Channel2]</group>
                 <key>loop_enabled</key>
                 <status>0x91</status>
-                <midino>0x0F</midino>
+                <midino>0x0E</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2367,7 +2367,7 @@
                 <group>[Channel2]</group>
                 <key>loop_enabled</key>
                 <status>0x91</status>
-                <midino>0x0E</midino>
+                <midino>0x0F</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2455,7 +2455,7 @@
                 <group>[Channel2]</group>
                 <key>loop_halve</key>
                 <status>0x91</status>
-                <midino>0x2B</midino>
+                <midino>0x2A</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2463,7 +2463,7 @@
                 <group>[Channel2]</group>
                 <key>loop_halve</key>
                 <status>0x91</status>
-                <midino>0x2A</midino>
+                <midino>0x2B</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2655,7 +2655,8 @@
                 <group>[Channel2]</group>
                 <key>beatloop_1</key>
                 <status>0x91</status>
-                <midino>0x3D</midino>
+                <midino>0x3C</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2663,8 +2664,7 @@
                 <group>[Channel2]</group>
                 <key>beatloop_1</key>
                 <status>0x91</status>
-                <midino>0x3C</midino>
-                <off>0x7F</off>
+                <midino>0x3D</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2680,7 +2680,8 @@
                 <group>[Channel2]</group>
                 <key>beatloop_2</key>
                 <status>0x91</status>
-                <midino>0x3F</midino>
+                <midino>0x3E</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2688,8 +2689,7 @@
                 <group>[Channel2]</group>
                 <key>beatloop_2</key>
                 <status>0x91</status>
-                <midino>0x3E</midino>
-                <off>0x7F</off>
+                <midino>0x3F</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2713,7 +2713,8 @@
                 <group>[Channel2]</group>
                 <key>beatloop_4</key>
                 <status>0x91</status>
-                <midino>0x2D</midino>
+                <midino>0x2C</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2721,8 +2722,7 @@
                 <group>[Channel2]</group>
                 <key>beatloop_4</key>
                 <status>0x91</status>
-                <midino>0x2C</midino>
-                <off>0x7F</off>
+                <midino>0x2D</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2737,7 +2737,8 @@
                 <group>[Channel2]</group>
                 <key>beatloop_8</key>
                 <status>0x91</status>
-                <midino>0x2F</midino>
+                <midino>0x2E</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2745,8 +2746,7 @@
                 <group>[Channel2]</group>
                 <key>beatloop_8</key>
                 <status>0x91</status>
-                <midino>0x2E</midino>
-                <off>0x7F</off>
+                <midino>0x2F</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2778,7 +2778,7 @@
                 <group>[Channel2]</group>
                 <key>loop_double</key>
                 <status>0x91</status>
-                <midino>0x3B</midino>
+                <midino>0x3A</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2786,15 +2786,7 @@
                 <group>[Channel2]</group>
                 <key>loop_double</key>
                 <status>0x91</status>
-                <midino>0x3A</midino>
-                <maximum>127</maximum>
-                <minimum>1</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>loop_enabled</key>
-                <status>0x91</status>
-                <midino>0x01</midino>
+                <midino>0x3B</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2803,6 +2795,14 @@
                 <key>loop_enabled</key>
                 <status>0x91</status>
                 <midino>0x00</midino>
+                <maximum>127</maximum>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>loop_enabled</key>
+                <status>0x91</status>
+                <midino>0x01</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2826,7 +2826,7 @@
                 <group>[Channel1]</group>
                 <key>loop_halve</key>
                 <status>0x91</status>
-                <midino>0x25</midino>
+                <midino>0x24</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2834,7 +2834,7 @@
                 <group>[Channel1]</group>
                 <key>loop_halve</key>
                 <status>0x91</status>
-                <midino>0x24</midino>
+                <midino>0x25</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2858,7 +2858,7 @@
                 <group>[Channel1]</group>
                 <key>loop_double</key>
                 <status>0x91</status>
-                <midino>0x35</midino>
+                <midino>0x34</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2866,7 +2866,7 @@
                 <group>[Channel1]</group>
                 <key>loop_double</key>
                 <status>0x91</status>
-                <midino>0x34</midino>
+                <midino>0x35</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2898,14 +2898,6 @@
                 <group>[Channel1]</group>
                 <key>beatloop_1</key>
                 <status>0x91</status>
-                <midino>0x31</midino>
-                <maximum>127</maximum>
-                <minimum>1</minimum>
-            </output>
-            <output>
-                <group>[Channel1]</group>
-                <key>beatloop_1</key>
-                <status>0x91</status>
                 <midino>0x30</midino>
                 <off>0x7F</off>
                 <maximum>127</maximum>
@@ -2913,9 +2905,9 @@
             </output>
             <output>
                 <group>[Channel1]</group>
-                <key>beatloop_2</key>
+                <key>beatloop_1</key>
                 <status>0x91</status>
-                <midino>0x33</midino>
+                <midino>0x31</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2925,6 +2917,14 @@
                 <status>0x91</status>
                 <midino>0x32</midino>
                 <off>0x7F</off>
+                <maximum>127</maximum>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>beatloop_2</key>
+                <status>0x91</status>
+                <midino>0x33</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2940,7 +2940,8 @@
                 <group>[Channel1]</group>
                 <key>beatloop_4</key>
                 <status>0x91</status>
-                <midino>0x21</midino>
+                <midino>0x20</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2948,8 +2949,7 @@
                 <group>[Channel1]</group>
                 <key>beatloop_4</key>
                 <status>0x91</status>
-                <midino>0x20</midino>
-                <off>0x7F</off>
+                <midino>0x21</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2972,7 +2972,8 @@
                 <group>[Channel1]</group>
                 <key>beatloop_8</key>
                 <status>0x91</status>
-                <midino>0x23</midino>
+                <midino>0x22</midino>
+                <off>0x7F</off>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>
@@ -2980,8 +2981,7 @@
                 <group>[Channel1]</group>
                 <key>beatloop_8</key>
                 <status>0x91</status>
-                <midino>0x22</midino>
-                <off>0x7F</off>
+                <midino>0x23</midino>
                 <maximum>127</maximum>
                 <minimum>1</minimum>
             </output>

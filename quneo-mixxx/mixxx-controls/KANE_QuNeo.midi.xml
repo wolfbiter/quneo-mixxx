@@ -2,7 +2,7 @@
   <info>
     <name>KANE QuNeo</name>
     <author>Daniel Leja</author>
-    <description>This is a fully customized DJ mapping for the QuNeo, complete with beat-jumping and LED sequencers.</description>
+    <description>This is a fully customized DJ mapping for the QuNeo, complete with beat-jumping and pulsing LED sequencers.</description>
     <forums>http://mixxx.org/forums/viewtopic.php?f=7&amp;amp;t=4130&amp;amp;sid=bc90140a4dc6e650e06dae0df8562604</forums>-->
   </info>
   <controller id="QUNEO">
@@ -16,178 +16,178 @@
 	<status>0x90</status>
 	<midino>0x00</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_1_activate</key>
+	<key>KANE_QuNeo.deck1Cue1Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x01</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_2_activate</key>
+	<key>KANE_QuNeo.deck1Cue2Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x02</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_3_activate</key>
+	<key>KANE_QuNeo.deck1Cue3Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x03</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_4_activate</key>
+	<key>KANE_QuNeo.deck1Cue4Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x04</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_1_activate</key>
+	<key>KANE_QuNeo.deck2Cue1Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x05</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_2_activate</key>
+	<key>KANE_QuNeo.deck2Cue2Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x06</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_3_activate</key>
+	<key>KANE_QuNeo.deck2Cue3Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x07</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_4_activate</key>
+	<key>KANE_QuNeo.deck2Cue4Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x00</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_1_activate</key>
+	<key>KANE_QuNeo.deck1Cue1Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x01</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_2_activate</key>
+	<key>KANE_QuNeo.deck1Cue2Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x02</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_3_activate</key>
+	<key>KANE_QuNeo.deck1Cue3Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x03</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_4_activate</key>
+	<key>KANE_QuNeo.deck1Cue4Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x04</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_1_activate</key>
+	<key>KANE_QuNeo.deck2Cue1Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x05</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_2_activate</key>
+	<key>KANE_QuNeo.deck2Cue2Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x06</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_3_activate</key>
+	<key>KANE_QuNeo.deck2Cue3Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x07</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_4_activate</key>
+	<key>KANE_QuNeo.deck2Cue4Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x08</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_5_activate</key>
+	<key>KANE_QuNeo.deck1Cue5Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x09</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_6_activate</key>
+	<key>KANE_QuNeo.deck1Cue6Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x0a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_7_activate</key>
+	<key>KANE_QuNeo.deck1Cue7Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x0b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_8_activate</key>
+	<key>KANE_QuNeo.deck1Cue8Deactivate</key>
 	<options>
 	  <normal/>
 	</options>
@@ -196,972 +196,972 @@
 	<status>0x80</status>
 	<midino>0x0c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_5_activate</key>
+	<key>KANE_QuNeo.deck2Cue5Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x0d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_6_activate</key>
+	<key>KANE_QuNeo.deck2Cue6Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x0e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_7_activate</key>
+	<key>KANE_QuNeo.deck2Cue7Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x0f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_8_activate</key>
+	<key>KANE_QuNeo.deck2Cue8Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x08</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_5_activate</key>
+	<key>KANE_QuNeo.deck1Cue5Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x09</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_6_activate</key>
+	<key>KANE_QuNeo.deck1Cue6Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x0a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_7_activate</key>
+	<key>KANE_QuNeo.deck1Cue7Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x0b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_8_activate</key>
+	<key>KANE_QuNeo.deck1Cue8Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x0c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_5_activate</key>
+	<key>KANE_QuNeo.deck2Cue5Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x0d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_6_activate</key>
+	<key>KANE_QuNeo.deck2Cue6Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x0e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_7_activate</key>
+	<key>KANE_QuNeo.deck2Cue7Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x0f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_8_activate</key>
+	<key>KANE_QuNeo.deck2Cue8Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x10</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_9_activate</key>
+	<key>KANE_QuNeo.deck1Cue9Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x11</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_10_activate</key>
+	<key>KANE_QuNeo.deck1Cue10Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x12</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_11_activate</key>
+	<key>KANE_QuNeo.deck1Cue11Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x13</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_12_activate</key>
+	<key>KANE_QuNeo.deck1Cue12Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x14</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_9_activate</key>
+	<key>KANE_QuNeo.deck2Cue9Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x15</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_10_activate</key>
+	<key>KANE_QuNeo.deck2Cue10Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x16</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_11_activate</key>
+	<key>KANE_QuNeo.deck2Cue11Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x17</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_12_activate</key>
+	<key>KANE_QuNeo.deck2Cue12Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x10</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_9_activate</key>
+	<key>KANE_QuNeo.deck1Cue9Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x11</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_10_activate</key>
+	<key>KANE_QuNeo.deck1Cue10Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x12</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_11_activate</key>
+	<key>KANE_QuNeo.deck1Cue11Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x13</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_12_activate</key>
+	<key>KANE_QuNeo.deck1Cue12Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x14</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_9_activate</key>
+	<key>KANE_QuNeo.deck2Cue9Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x15</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_10_activate</key>
+	<key>KANE_QuNeo.deck2Cue10Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x16</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_11_activate</key>
+	<key>KANE_QuNeo.deck2Cue11Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x17</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_12_activate</key>
+	<key>KANE_QuNeo.deck2Cue12Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x18</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_13_activate</key>
+	<key>KANE_QuNeo.deck1Cue13Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x19</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_14_activate</key>
+	<key>KANE_QuNeo.deck1Cue14Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x1a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_15_activate</key>
+	<key>KANE_QuNeo.deck1Cue15Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x1b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_16_activate</key>
+	<key>KANE_QuNeo.deck1Cue16Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x1c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_13_activate</key>
+	<key>KANE_QuNeo.deck2Cue13Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x1d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_14_activate</key>
+	<key>KANE_QuNeo.deck2Cue14Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x1e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_15_activate</key>
+	<key>KANE_QuNeo.deck2Cue15Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x1f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_16_activate</key>
+	<key>KANE_QuNeo.deck2Cue16Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x18</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_13_activate</key>
+	<key>KANE_QuNeo.deck1Cue13Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x19</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_14_activate</key>
+	<key>KANE_QuNeo.deck1Cue14Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x1a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_15_activate</key>
+	<key>KANE_QuNeo.deck1Cue15Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x1b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_16_activate</key>
+	<key>KANE_QuNeo.deck1Cue16Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x1c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_13_activate</key>
+	<key>KANE_QuNeo.deck2Cue13Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x1d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_14_activate</key>
+	<key>KANE_QuNeo.deck2Cue14Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x1e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_15_activate</key>
+	<key>KANE_QuNeo.deck2Cue15Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x1f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_16_activate</key>
+	<key>KANE_QuNeo.deck2Cue16Activate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x20</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_1_clear</key>
+	<key>KANE_QuNeo.deck1Cue1Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x21</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_2_clear</key>
+	<key>KANE_QuNeo.deck1Cue2Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x22</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_3_clear</key>
+	<key>KANE_QuNeo.deck1Cue3Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x23</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_4_clear</key>
+	<key>KANE_QuNeo.deck1Cue4Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x24</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_1_clear</key>
+	<key>KANE_QuNeo.deck2Cue1Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x25</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_2_clear</key>
+	<key>KANE_QuNeo.deck2Cue2Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x26</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_3_clear</key>
+	<key>KANE_QuNeo.deck2Cue3Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x27</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_4_clear</key>
+	<key>KANE_QuNeo.deck2Cue4Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x20</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_1_clear</key>
+	<key>KANE_QuNeo.deck1Cue1Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x21</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_2_clear</key>
+	<key>KANE_QuNeo.deck1Cue2Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x22</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_3_clear</key>
+	<key>KANE_QuNeo.deck1Cue3Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x23</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_4_clear</key>
+	<key>KANE_QuNeo.deck1Cue4Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x24</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_1_clear</key>
+	<key>KANE_QuNeo.deck2Cue1Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x25</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_2_clear</key>
+	<key>KANE_QuNeo.deck2Cue2Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x26</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_3_clear</key>
+	<key>KANE_QuNeo.deck2Cue3Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x27</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_4_clear</key>
+	<key>KANE_QuNeo.deck2Cue4Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x28</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_5_clear</key>
+	<key>KANE_QuNeo.deck1Cue5Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x29</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_6_clear</key>
+	<key>KANE_QuNeo.deck1Cue6Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x2a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_7_clear</key>
+	<key>KANE_QuNeo.deck1Cue7Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x2b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_8_clear</key>
+	<key>KANE_QuNeo.deck1Cue8Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x2c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_5_clear</key>
+	<key>KANE_QuNeo.deck2Cue5Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x2d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_6_clear</key>
+	<key>KANE_QuNeo.deck2Cue6Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x2e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_7_clear</key>
+	<key>KANE_QuNeo.deck2Cue7Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x2f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_8_clear</key>
+	<key>KANE_QuNeo.deck2Cue8Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x28</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_5_clear</key>
+	<key>KANE_QuNeo.deck1Cue5Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x29</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_6_clear</key>
+	<key>KANE_QuNeo.deck1Cue6Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x2a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_7_clear</key>
+	<key>KANE_QuNeo.deck1Cue7Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x2b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_8_clear</key>
+	<key>KANE_QuNeo.deck1Cue8Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x2c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_5_clear</key>
+	<key>KANE_QuNeo.deck2Cue5Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x2d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_6_clear</key>
+	<key>KANE_QuNeo.deck2Cue6Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x2e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_7_clear</key>
+	<key>KANE_QuNeo.deck2Cue7Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x2f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_8_clear</key>
+	<key>KANE_QuNeo.deck2Cue8Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x30</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_9_clear</key>
+	<key>KANE_QuNeo.deck1Cue9Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x31</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_10_clear</key>
+	<key>KANE_QuNeo.deck1Cue10Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x32</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_11_clear</key>
+	<key>KANE_QuNeo.deck1Cue11Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x33</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_12_clear</key>
+	<key>KANE_QuNeo.deck1Cue12Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x34</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_9_clear</key>
+	<key>KANE_QuNeo.deck2Cue9Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x35</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_10_clear</key>
+	<key>KANE_QuNeo.deck2Cue10Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x36</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_11_clear</key>
+	<key>KANE_QuNeo.deck2Cue11Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x37</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_12_clear</key>
+	<key>KANE_QuNeo.deck2Cue12Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x30</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_9_clear</key>
+	<key>KANE_QuNeo.deck1Cue9Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x31</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_10_clear</key>
+	<key>KANE_QuNeo.deck1Cue10Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x32</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_11_clear</key>
+	<key>KANE_QuNeo.deck1Cue11Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x33</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_12_clear</key>
+	<key>KANE_QuNeo.deck1Cue12Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x34</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_9_clear</key>
+	<key>KANE_QuNeo.deck2Cue9Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x35</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_10_clear</key>
+	<key>KANE_QuNeo.deck2Cue10Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x36</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_11_clear</key>
+	<key>KANE_QuNeo.deck2Cue11Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x37</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_12_clear</key>
+	<key>KANE_QuNeo.deck2Cue12Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x38</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_13_clear</key>
+	<key>KANE_QuNeo.deck1Cue13Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x39</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_14_clear</key>
+	<key>KANE_QuNeo.deck1Cue14Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x3a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_15_clear</key>
+	<key>KANE_QuNeo.deck1Cue15Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x3b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_16_clear</key>
+	<key>KANE_QuNeo.deck1Cue16Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x3c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_13_clear</key>
+	<key>KANE_QuNeo.deck2Cue13Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x3d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_14_clear</key>
+	<key>KANE_QuNeo.deck2Cue14Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x3e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_15_clear</key>
+	<key>KANE_QuNeo.deck2Cue15Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x90</status>
 	<midino>0x3f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_16_clear</key>
+	<key>KANE_QuNeo.deck2Cue16Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x38</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_13_clear</key>
+	<key>KANE_QuNeo.deck1Cue13Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x39</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_14_clear</key>
+	<key>KANE_QuNeo.deck1Cue14Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x3a</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_15_clear</key>
+	<key>KANE_QuNeo.deck1Cue15Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x3b</midino>
 	<group>[Channel1]</group>
-	<key>hotcue_16_clear</key>
+	<key>KANE_QuNeo.deck1Cue16Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x3c</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_13_clear</key>
+	<key>KANE_QuNeo.deck2Cue13Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x3d</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_14_clear</key>
+	<key>KANE_QuNeo.deck2Cue14Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x3e</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_15_clear</key>
+	<key>KANE_QuNeo.deck2Cue15Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x80</status>
 	<midino>0x3f</midino>
 	<group>[Channel2]</group>
-	<key>hotcue_16_clear</key>
+	<key>KANE_QuNeo.deck2Cue16Clear</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
 
@@ -1260,18 +1260,9 @@
 	<status>0x91</status>
 	<midino>0x06</midino>
 	<group>[Channel1]</group>
-	<key>reloop_exit</key>
+	<key>KANE_QuNeo.reloop1</key>
 	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x81</status>
-	<midino>0x06</midino>
-	<group>[Channel1]</group>
-	<key>reloop_exit</key>
-	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1424,18 +1415,9 @@
 	<status>0x91</status>
 	<midino>0x1f</midino>
 	<group>[Channel2]</group>
-	<key>reloop_exit</key>
+	<key>KANE_QuNeo.reloop2</key>
 	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x81</status>
-	<midino>0x1f</midino>
-	<group>[Channel2]</group>
-	<key>reloop_exit</key>
-	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1666,66 +1648,72 @@
 	<status>0x96</status>
 	<midino>0x00</midino>
 	<group>[Channel1]</group>
-	<key>keylock</key>
+	<key>KANE_QuNeo.deck1keylock</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x96</status>
 	<midino>0x01</midino>
 	<group>[Channel2]</group>
-	<key>keylock</key>
+	<key>KANE_QuNeo.deck2keylock</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x96</status>
 	<midino>0x02</midino>
 	<group>[Channel1]</group>
-	<key>pfl</key>
+	<key>KANE_QuNeo.deck1pfl</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x96</status>
 	<midino>0x03</midino>
 	<group>[Channel2]</group>
-	<key>pfl</key>
+	<key>KANE_QuNeo.deck2pfl</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x96</status>
 	<midino>0x04</midino>
 	<group>[Channel1]</group>
-	<key>slip_enabled</key>
+	<key>KANE_QuNeo.deck1slip_enabled</key>
+	<options>
+	  <Script-Binding/>
+	</options>
       </control>
       <control>
 	<status>0x96</status>
 	<midino>0x05</midino>
 	<group>[Channel2]</group>
-	<key>slip_enabled</key>
+	<key>KANE_QuNeo.deck2slip_enabled</key>
+	<options>
+	  <Script-Binding/>
+	</options>
       </control>
       <control>
 	<status>0x96</status>
 	<midino>0x06</midino>
 	<group>[Channel1]</group>
-	<key>flanger</key>
+	<key>KANE_QuNeo.deck1flanger</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
 	<status>0x96</status>
 	<midino>0x07</midino>
 	<group>[Channel2]</group>
-	<key>flanger</key>
+	<key>KANE_QuNeo.deck2flanger</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1922,10 +1910,19 @@
 
       <!-- Vertical Sliders -->
       <control>
-	<status>0xb4</status>
+	<status>0x94</status>
 	<midino>0x00</midino>
 	<group>[Channel1]</group>
-	<key>KANE_QuNeo.deck1Zoom</key>
+	<key>KANE_QuNeo.sliderCycle</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0xb4</status>
+	<midino>0x00</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.verticalSlider1Touch</key>
 	<options>
 	  <Script-Binding/>
 	</options>
@@ -1933,8 +1930,8 @@
       <control>
 	<status>0xb4</status>
 	<midino>0x01</midino>
-	<group>[Channel2]</group>
-	<key>KANE_QuNeo.deck1Cursor</key>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.verticalSlider2Touch</key>
 	<options>
 	  <Script-Binding/>
 	</options>
@@ -1942,8 +1939,8 @@
       <control>
 	<status>0xb4</status>
 	<midino>0x02</midino>
-	<group>[Channel1]</group>
-	<key>KANE_QuNeo.deck2Zoom</key>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.verticalSlider3Touch</key>
 	<options>
 	  <Script-Binding/>
 	</options>
@@ -1951,118 +1948,10 @@
       <control>
 	<status>0xb4</status>
 	<midino>0x03</midino>
-	<group>[Channel1]</group>
-	<key>KANE_QuNeo.deck2Cursor</key>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.verticalSlider4Touch</key>
 	<options>
 	  <Script-Binding/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x04</midino>
-	<group>[Channel1]</group>
-	<key>pregain</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x05</midino>
-	<group>[Channel1]</group>
-	<key>rate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x06</midino>
-	<group>[Channel2]</group>
-	<key>pregain</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x07</midino>
-	<group>[Channel2]</group>
-	<key>rate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x08</midino>
-	<group>[Channel1]</group>
-	<key>volume</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x09</midino>
-	<group>[Channel1]</group>
-	<key>filterHigh</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x0a</midino>
-	<group>[Channel1]</group>
-	<key>filterMid</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x0b</midino>
-	<group>[Channel1]</group>
-	<key>filterLow</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x0c</midino>
-	<group>[Channel2]</group>
-	<key>volume</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x0d</midino>
-	<group>[Channel2]</group>
-	<key>filterHigh</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x0e</midino>
-	<group>[Channel2]</group>
-	<key>filterMid</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0xb4</status>
-	<midino>0x0f</midino>
-	<group>[Channel2]</group>
-	<key>filterLow</key>
-	<options>
-	  <normal/>
 	</options>
       </control>
 
@@ -2196,6 +2085,24 @@
 
       <!-- Playlist Editing -->	    
       <control>
+	<status>0x97</status>
+	<midino>0x13</midino>
+	<group>[Playlist]</group>
+	<key>KANE_QuNeo.touchPlaylist</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x97</status>
+	<midino>0x14</midino>
+	<group>[Playlist]</group>
+	<key>KANE_QuNeo.touchTracklist</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
 	<status>0xb7</status>
 	<midino>0x00</midino>
 	<group>[Playlist]</group>
@@ -2288,7 +2195,7 @@
 	<status>0x97</status>
 	<midino>0x01</midino>
 	<group>[Master]</group>
-	<key>KANE_QuNeo.assertLEDs</key>
+	<key>KANE_QuNeo.assert13LEDs</key>
 	<options>
 	  <Script-Binding/>
 	</options>
@@ -2311,13 +2218,11 @@
 	  <Script-Binding/>
 	</options>
       </control>
-
-      <!-- Visualizer -->
       <control>
 	<status>0x97</status>
 	<midino>0x0d</midino>
 	<group>[Master]</group>
-	<key>KANE_QuNeo.toggleVisualizer</key>
+	<key>KANE_QuNeo.assert5LEDs</key>
 	<options>
 	  <Script-Binding/>
 	</options>
@@ -2325,6 +2230,71 @@
       <control>
 	<status>0x97</status>
 	<midino>0x0e</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.assert14LEDs</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x97</status>
+	<midino>0x0f</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.assert15LEDs</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x97</status>
+	<midino>0x10</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.assert16LEDs</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x87</status>
+	<midino>0x0d</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.assertLEDOn</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x87</status>
+	<midino>0x0e</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.assertLEDOn</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x87</status>
+	<midino>0x0f</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.assertLEDOn</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+      <control>
+	<status>0x87</status>
+	<midino>0x10</midino>
+	<group>[Master]</group>
+	<key>KANE_QuNeo.assertLEDOn</key>
+	<options>
+	  <Script-Binding/>
+	</options>
+      </control>
+
+      <!-- Visualizer -->
+      <control>
+	<status>0x97</status>
+	<midino>0x11</midino>
 	<group>[Channel1]</group>
 	<key>KANE_QuNeo.reset1Beat</key>
 	<options>
@@ -2333,590 +2303,11 @@
       </control>
       <control>
 	<status>0x97</status>
-	<midino>0x0f</midino>
+	<midino>0x12</midino>
 	<group>[Channel2]</group>
 	<key>KANE_QuNeo.reset2Beat</key>
 	<options>
 	  <Script-Binding/>
-	</options>
-      </control>
-
-    <!-- Samplers 1 and 2 -->
-    <!-- Hotcues -->
-      <control>
-	<status>0x98</status>
-	<midino>0x00</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x01</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x02</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x03</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x04</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x05</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x06</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x07</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x00</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x01</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x02</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x03</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x04</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x05</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x06</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x07</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x08</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x09</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x0a</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x0b</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x0c</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x0d</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x0e</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x0f</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x08</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x09</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x0a</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x0b</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x0c</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x0d</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x0e</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x0f</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x10</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x11</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x12</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x13</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x14</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x15</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x16</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x17</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x10</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x11</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x12</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x13</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x14</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x15</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x16</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x17</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x18</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x19</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x1a</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x1b</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x1c</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x1d</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x1e</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x88</status>
-	<midino>0x1f</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x18</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x19</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x1a</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x1b</midino>
-	<group>[Sampler1]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x1c</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x1d</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x1e</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x98</status>
-	<midino>0x1f</midino>
-	<group>[Sampler2]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
 	</options>
       </control>
 
@@ -3248,715 +2639,6 @@
 	</options>
       </control>
 
-      <!-- Sync, Cue -->
-      <control>
-	<status>0x99</status>
-	<midino>0x0b</midino>
-	<group>[Sampler1]</group>
-	<key>beatsync</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x89</status>
-	<midino>0x0b</midino>
-	<group>[Sampler1]</group>
-	<key>beatsync</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x0f</midino>
-	<group>[Sampler1]</group>
-	<key>cue_default</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x89</status>
-	<midino>0x0f</midino>
-	<group>[Sampler1]</group>
-	<key>cue_default</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x17</midino>
-	<group>[Sampler2]</group>
-	<key>beatsync</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x89</status>
-	<midino>0x17</midino>
-	<group>[Sampler2]</group>
-	<key>beatsync</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x13</midino>
-	<group>[Sampler2]</group>
-	<key>cue_default</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x89</status>
-	<midino>0x13</midino>
-	<group>[Sampler2]</group>
-	<key>cue_default</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-
-      <!-- Kill High, Lows, Mids -->
-      <control>
-	<status>0x99</status>
-	<midino>0x0c</midino>
-	<group>[Sampler1]</group>
-	<key>filterHighKill</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x0d</midino>
-	<group>[Sampler1]</group>
-	<key>filterMidKill</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x0e</midino>
-	<group>[Sampler1]</group>
-	<key>filterLowKill</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x10</midino>
-	<group>[Sampler2]</group>
-	<key>filterHighKill</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x11</midino>
-	<group>[Sampler2]</group>
-	<key>filterMidKill</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x99</status>
-	<midino>0x12</midino>
-	<group>[Sampler2]</group>
-	<key>filterLowKill</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-
-    <!-- Samplers 3 and 4 -->
-    <!-- Hotcues -->
-      <control>
-	<status>0x9a</status>
-	<midino>0x00</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x01</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x02</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x03</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x04</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x05</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x06</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x07</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x00</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x01</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x02</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x03</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x04</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_1_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x05</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_2_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x06</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_3_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x07</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_4_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x08</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x09</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x0a</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x0b</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x0c</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x0d</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x0e</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x0f</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x08</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x09</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x0a</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x0b</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x0c</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_5_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x0d</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_6_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x0e</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_7_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x0f</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_8_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x10</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x11</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x12</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x13</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x14</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x15</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x16</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x17</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x10</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x11</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x12</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x13</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x14</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_9_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x15</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_10_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x16</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_11_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x17</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_12_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x18</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x19</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x1a</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x1b</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x1c</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x1d</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x1e</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x8a</status>
-	<midino>0x1f</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x18</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x19</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x1a</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x1b</midino>
-	<group>[Sampler3]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x1c</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_13_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x1d</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_14_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x1e</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_15_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-      <control>
-	<status>0x9a</status>
-	<midino>0x1f</midino>
-	<group>[Sampler4]</group>
-	<key>hotcue_16_activate</key>
-	<options>
-	  <normal/>
-	</options>
-      </control>
-
       <!-- Sampler 3 Looping -->
       <control>
 	<status>0x9b</status>
@@ -4285,7 +2967,79 @@
 	</options>
       </control>
 
-      <!-- Sync, Cue -->
+      <!-- Sampler Syncs, Cues -->
+      <control>
+	<status>0x99</status>
+	<midino>0x0b</midino>
+	<group>[Sampler1]</group>
+	<key>beatsync</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x89</status>
+	<midino>0x0b</midino>
+	<group>[Sampler1]</group>
+	<key>beatsync</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x0f</midino>
+	<group>[Sampler1]</group>
+	<key>cue_default</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x89</status>
+	<midino>0x0f</midino>
+	<group>[Sampler1]</group>
+	<key>cue_default</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x17</midino>
+	<group>[Sampler2]</group>
+	<key>beatsync</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x89</status>
+	<midino>0x17</midino>
+	<group>[Sampler2]</group>
+	<key>beatsync</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x13</midino>
+	<group>[Sampler2]</group>
+	<key>cue_default</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x89</status>
+	<midino>0x13</midino>
+	<group>[Sampler2]</group>
+	<key>cue_default</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
       <control>
 	<status>0x9b</status>
 	<midino>0x0b</midino>
@@ -4359,7 +3113,61 @@
 	</options>
       </control>
 
-      <!-- Kill High, Lows, Mids -->
+      <!-- Sampler Kill Highs, Lows, Mids -->
+      <control>
+	<status>0x99</status>
+	<midino>0x0c</midino>
+	<group>[Sampler1]</group>
+	<key>filterHighKill</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x0d</midino>
+	<group>[Sampler1]</group>
+	<key>filterMidKill</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x0e</midino>
+	<group>[Sampler1]</group>
+	<key>filterLowKill</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x10</midino>
+	<group>[Sampler2]</group>
+	<key>filterHighKill</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x11</midino>
+	<group>[Sampler2]</group>
+	<key>filterMidKill</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
+      <control>
+	<status>0x99</status>
+	<midino>0x12</midino>
+	<group>[Sampler2]</group>
+	<key>filterLowKill</key>
+	<options>
+	  <normal/>
+	</options>
+      </control>
       <control>
 	<status>0x9b</status>
 	<midino>0x0c</midino>
@@ -4418,520 +3226,6 @@
 
     <outputs>
       <!-- Remote LED Settings -->
-
-      <!-- Hotcues -->
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_1_activate</key>
-	<status>0x91</status>
-	<midino>0x70</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_2_activate</key>
-	<status>0x91</status>
-	<midino>0x72</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_3_activate</key>
-	<status>0x91</status>
-	<midino>0x74</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_4_activate</key>
-	<status>0x91</status>
-	<midino>0x76</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_1_activate</key>
-	<status>0x91</status>
-	<midino>0x78</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_2_activate</key>
-	<status>0x91</status>
-	<midino>0x7a</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_3_activate</key>
-	<status>0x91</status>
-	<midino>0x7c</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_4_activate</key>
-	<status>0x91</status>
-	<midino>0x7e</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_5_activate</key>
-	<status>0x91</status>
-	<midino>0x60</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_6_activate</key>
-	<status>0x91</status>
-	<midino>0x62</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_7_activate</key>
-	<status>0x91</status>
-	<midino>0x64</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_8_activate</key>
-	<status>0x91</status>
-	<midino>0x66</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_5_activate</key>
-	<status>0x91</status>
-	<midino>0x68</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_6_activate</key>
-	<status>0x91</status>
-	<midino>0x6a</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_7_activate</key>
-	<status>0x91</status>
-	<midino>0x6c</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_8_activate</key>
-	<status>0x91</status>
-	<midino>0x6e</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_9_activate</key>
-	<status>0x91</status>
-	<midino>0x50</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_10_activate</key>
-	<status>0x91</status>
-	<midino>0x52</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_11_activate</key>
-	<status>0x91</status>
-	<midino>0x54</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_12_activate</key>
-	<status>0x91</status>
-	<midino>0x56</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_9_activate</key>
-	<status>0x91</status>
-	<midino>0x58</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_10_activate</key>
-	<status>0x91</status>
-	<midino>0x5a</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_11_activate</key>
-	<status>0x91</status>
-	<midino>0x5c</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_12_activate</key>
-	<status>0x91</status>
-	<midino>0x5e</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_13_activate</key>
-	<status>0x91</status>
-	<midino>0x40</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_14_activate</key>
-	<status>0x91</status>
-	<midino>0x42</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_15_activate</key>
-	<status>0x91</status>
-	<midino>0x44</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_16_activate</key>
-	<status>0x91</status>
-	<midino>0x46</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_13_activate</key>
-	<status>0x91</status>
-	<midino>0x48</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_14_activate</key>
-	<status>0x91</status>
-	<midino>0x4a</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_15_activate</key>
-	<status>0x91</status>
-	<midino>0x4c</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_16_activate</key>
-	<status>0x91</status>
-	<midino>0x4e</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_1_clear</key>
-	<status>0x91</status>
-	<midino>0x71</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_2_clear</key>
-	<status>0x91</status>
-	<midino>0x73</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_3_clear</key>
-	<status>0x91</status>
-	<midino>0x75</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_4_clear</key>
-	<status>0x91</status>
-	<midino>0x77</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_1_clear</key>
-	<status>0x91</status>
-	<midino>0x79</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_2_clear</key>
-	<status>0x91</status>
-	<midino>0x7b</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_3_clear</key>
-	<status>0x91</status>
-	<midino>0x7d</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_4_clear</key>
-	<status>0x91</status>
-	<midino>0x7f</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_5_clear</key>
-	<status>0x91</status>
-	<midino>0x61</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_6_clear</key>
-	<status>0x91</status>
-	<midino>0x63</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_7_clear</key>
-	<status>0x91</status>
-	<midino>0x65</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_8_clear</key>
-	<status>0x91</status>
-	<midino>0x67</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_5_clear</key>
-	<status>0x91</status>
-	<midino>0x69</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_6_clear</key>
-	<status>0x91</status>
-	<midino>0x6b</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_7_clear</key>
-	<status>0x91</status>
-	<midino>0x6d</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_8_clear</key>
-	<status>0x91</status>
-	<midino>0x6f</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_9_clear</key>
-	<status>0x91</status>
-	<midino>0x51</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_10_clear</key>
-	<status>0x91</status>
-	<midino>0x53</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_11_clear</key>
-	<status>0x91</status>
-	<midino>0x55</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_12_clear</key>
-	<status>0x91</status>
-	<midino>0x57</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_9_clear</key>
-	<status>0x91</status>
-	<midino>0x59</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_10_clear</key>
-	<status>0x91</status>
-	<midino>0x5b</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_11_clear</key>
-	<status>0x91</status>
-	<midino>0x5d</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_12_clear</key>
-	<status>0x91</status>
-	<midino>0x5f</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_13_clear</key>
-	<status>0x91</status>
-	<midino>0x41</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_14_clear</key>
-	<status>0x91</status>
-	<midino>0x43</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_15_clear</key>
-	<status>0x91</status>
-	<midino>0x45</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>hotcue_16_clear</key>
-	<status>0x91</status>
-	<midino>0x47</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_13_clear</key>
-	<status>0x91</status>
-	<midino>0x49</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_14_clear</key>
-	<status>0x91</status>
-	<midino>0x4b</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_15_clear</key>
-	<status>0x91</status>
-	<midino>0x4d</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>hotcue_16_clear</key>
-	<status>0x91</status>
-	<midino>0x4f</midino>
-	<maximum>127</maximum>
-	<minimum>1</minimum>
-      </output>
 
       <!-- Kill Lows, Mids, Highs -->
       <output>
@@ -4998,106 +3292,6 @@
       <!-- Channel 1 Looping -->
       <output>
 	<group>[Channel1]</group>
-	<key>beatloop_1</key>
-	<status>0x91</status>  
-	<midino>0x30</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>beatloop_1</key>
-	<status>0x91</status>  
-	<midino>0x31</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>beatloop_2</key>
-	<status>0x91</status>  
-	<midino>0x32</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>beatloop_2</key>
-	<status>0x91</status>  
-	<midino>0x33</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>beatloop_4</key>
-	<status>0x91</status>  
-	<midino>0x20</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>beatloop_4</key>
-	<status>0x91</status>  
-	<midino>0x21</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>beatloop_8</key>
-	<status>0x91</status>  
-	<midino>0x22</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>beatloop_8</key>
-	<status>0x91</status>  
-	<midino>0x23</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel1]</group>
-	<key>loop_enabled</key>
-	<status>0x91</status>  
-	<midino>0x00</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>  
-      <output>
-	<group>[Channel1]</group>
-	<key>loop_enabled</key>
-	<status>0x91</status>  
-	<midino>0x01</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>  
-      <output>
-	<group>[Channel1]</group>
 	<key>loop_double</key>
 	<status>0x91</status>  
 	<midino>0x34</midino>  
@@ -5138,106 +3332,6 @@
       </output>  
 
       <!-- Channel 2 Looping -->
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_1</key>
-	<status>0x91</status>  
-	<midino>0x3c</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_1</key>
-	<status>0x91</status>  
-	<midino>0x3d</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_2</key>
-	<status>0x91</status>  
-	<midino>0x3e</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_2</key>
-	<status>0x91</status>  
-	<midino>0x3f</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_4</key>
-	<status>0x91</status>  
-	<midino>0x2c</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_4</key>
-	<status>0x91</status>  
-	<midino>0x2d</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_8</key>
-	<status>0x91</status>  
-	<midino>0x2e</midino>  
-	<on>0x7F</on>  
-	<off>0x7F</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>beatloop_8</key>
-	<status>0x91</status>  
-	<midino>0x2f</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>
-      <output>
-	<group>[Channel2]</group>
-	<key>loop_enabled</key>
-	<status>0x91</status>  
-	<midino>0x0e</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>  
-      <output>
-	<group>[Channel2]</group>
-	<key>loop_enabled</key>
-	<status>0x91</status>  
-	<midino>0x0f</midino>  
-	<on>0x7F</on>  
-	<off>0x00</off> 
-	<maximum>127</maximum>  
-	<minimum>1</minimum>
-      </output>  
       <output>
 	<group>[Channel2]</group>
 	<key>loop_double</key>
@@ -5342,7 +3436,7 @@
       </output>
 
       <!-- Horizontal Arrows -->
-      <output>
+      <!--<output>
 	<group>[Channel1]</group>
 	<key>keylock</key>
 	<status>0x90</status>  
@@ -5421,7 +3515,7 @@
 	<off>0x00</off> 
 	<maximum>127</maximum>  
 	<minimum>1</minimum>
-      </output>      
+      </output>-->
       <output>
 	<group>[Channel1]</group>
 	<key>beats_translate_curpos</key>

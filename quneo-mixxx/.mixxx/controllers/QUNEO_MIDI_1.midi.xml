@@ -21,28 +21,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x88</status>
-                <midino>0x1E</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_13_activate</key>
                 <status>0x80</status>
                 <midino>0x1C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x8A</status>
-                <midino>0x1E</midino>
                 <options>
                     <normal/>
                 </options>
@@ -66,15 +48,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x88</status>
-                <midino>0x1C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_15_activate</key>
                 <status>0x80</status>
@@ -90,24 +63,6 @@
                 <midino>0x1A</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x8A</status>
-                <midino>0x1C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x98</status>
-                <midino>0x1E</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -135,24 +90,6 @@
                 <midino>0x1C</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x88</status>
-                <midino>0x1A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x9A</status>
-                <midino>0x1E</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -192,30 +129,12 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x8A</status>
-                <midino>0x1A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Sampler4]</group>
                 <key>KANE_QuNeo.deck6JumpOff4</key>
                 <status>0x8B</status>
                 <midino>0x1A</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x98</status>
-                <midino>0x1C</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -246,24 +165,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x88</status>
-                <midino>0x18</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x9A</status>
-                <midino>0x1C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_11_activate</key>
                 <status>0x80</status>
@@ -291,30 +192,12 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x8A</status>
-                <midino>0x18</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Sampler4]</group>
                 <key>KANE_QuNeo.deck6JumpOff1</key>
                 <status>0x8B</status>
                 <midino>0x18</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x98</status>
-                <midino>0x1A</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -345,24 +228,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x88</status>
-                <midino>0x16</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_15_activate</key>
-                <status>0x9A</status>
-                <midino>0x1A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_9_activate</key>
                 <status>0x80</status>
@@ -385,24 +250,6 @@
                 <key>loop_double</key>
                 <status>0x81</status>
                 <midino>0x14</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x8A</status>
-                <midino>0x16</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x98</status>
-                <midino>0x18</midino>
                 <options>
                     <normal/>
                 </options>
@@ -435,24 +282,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x88</status>
-                <midino>0x14</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_13_activate</key>
-                <status>0x9A</status>
-                <midino>0x18</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_11_activate</key>
                 <status>0x80</status>
@@ -481,27 +310,9 @@
             </control>
             <control>
                 <group>[Sampler4]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x8A</status>
-                <midino>0x14</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
                 <key>loop_double</key>
                 <status>0x8B</status>
                 <midino>0x14</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x98</status>
-                <midino>0x16</midino>
                 <options>
                     <normal/>
                 </options>
@@ -534,24 +345,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x88</status>
-                <midino>0x12</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x9A</status>
-                <midino>0x16</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_9_activate</key>
                 <status>0x80</status>
@@ -570,21 +363,12 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x8A</status>
-                <midino>0x12</midino>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.assertLEDOn</key>
+                <status>0x87</status>
+                <midino>0x10</midino>
                 <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x98</status>
-                <midino>0x14</midino>
-                <options>
-                    <normal/>
+                    <script-binding/>
                 </options>
             </control>
             <control>
@@ -615,24 +399,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x88</status>
-                <midino>0x10</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x9A</status>
-                <midino>0x14</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_7_activate</key>
                 <status>0x80</status>
@@ -651,21 +417,21 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x8A</status>
-                <midino>0x10</midino>
+                <group>[Channel2]</group>
+                <key>KANE_QuNeo.reset2Beat</key>
+                <status>0x97</status>
+                <midino>0x12</midino>
                 <options>
-                    <normal/>
+                    <script-binding/>
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x98</status>
-                <midino>0x12</midino>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.assertLEDOn</key>
+                <status>0x87</status>
+                <midino>0x0E</midino>
                 <options>
-                    <normal/>
+                    <script-binding/>
                 </options>
             </control>
             <control>
@@ -691,24 +457,6 @@
                 <key>filterHighKill</key>
                 <status>0x91</status>
                 <midino>0x10</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x88</status>
-                <midino>0x0E</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_11_activate</key>
-                <status>0x9A</status>
-                <midino>0x12</midino>
                 <options>
                     <normal/>
                 </options>
@@ -732,21 +480,12 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x8A</status>
-                <midino>0x0E</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x98</status>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.assert16LEDs</key>
+                <status>0x97</status>
                 <midino>0x10</midino>
                 <options>
-                    <normal/>
+                    <script-binding/>
                 </options>
             </control>
             <control>
@@ -772,24 +511,6 @@
                 <key>filterLowKill</key>
                 <status>0x91</status>
                 <midino>0x0E</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x88</status>
-                <midino>0x0C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_9_activate</key>
-                <status>0x9A</status>
-                <midino>0x10</midino>
                 <options>
                     <normal/>
                 </options>
@@ -813,17 +534,8 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x8A</status>
-                <midino>0x0C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>KANE_QuNeo.reset1Beat</key>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.assert14LEDs</key>
                 <status>0x97</status>
                 <midino>0x0E</midino>
                 <options>
@@ -831,15 +543,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x98</status>
-                <midino>0x0E</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_5_activate</key>
                 <status>0x90</status>
@@ -862,24 +565,6 @@
                 <key>filterHighKill</key>
                 <status>0x91</status>
                 <midino>0x0C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x88</status>
-                <midino>0x0A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x9A</status>
-                <midino>0x0E</midino>
                 <options>
                     <normal/>
                 </options>
@@ -912,15 +597,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x8A</status>
-                <midino>0x0A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Playlist]</group>
                 <key>SelectNextTrack</key>
                 <status>0x97</status>
@@ -934,15 +610,6 @@
                 <key>beats_translate_curpos</key>
                 <status>0x86</status>
                 <midino>0x08</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x98</status>
-                <midino>0x0C</midino>
                 <options>
                     <normal/>
                 </options>
@@ -972,24 +639,6 @@
                 <midino>0x0A</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x88</status>
-                <midino>0x08</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x9A</status>
-                <midino>0x0C</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1024,15 +673,6 @@
                 <key>reloop_exit</key>
                 <status>0x81</status>
                 <midino>0x06</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x8A</status>
-                <midino>0x08</midino>
                 <options>
                     <normal/>
                 </options>
@@ -1074,15 +714,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x98</status>
-                <midino>0x0A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_5_activate</key>
                 <status>0x90</status>
@@ -1105,24 +736,6 @@
                 <key>loop_double</key>
                 <status>0x91</status>
                 <midino>0x08</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x88</status>
-                <midino>0x06</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_7_activate</key>
-                <status>0x9A</status>
-                <midino>0x0A</midino>
                 <options>
                     <normal/>
                 </options>
@@ -1152,15 +765,6 @@
                 <midino>0x0A</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x8A</status>
-                <midino>0x06</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1218,28 +822,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x98</status>
-                <midino>0x08</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_3_activate</key>
                 <status>0x90</status>
                 <midino>0x06</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>filterMid</key>
-                <status>0xB4</status>
-                <midino>0x0E</midino>
                 <options>
                     <normal/>
                 </options>
@@ -1258,24 +844,6 @@
                 <key>reloop_exit</key>
                 <status>0x91</status>
                 <midino>0x06</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x88</status>
-                <midino>0x04</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_5_activate</key>
-                <status>0x9A</status>
-                <midino>0x08</midino>
                 <options>
                     <normal/>
                 </options>
@@ -1314,15 +882,6 @@
                 <midino>0x06</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x8A</status>
-                <midino>0x04</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1380,28 +939,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x98</status>
-                <midino>0x06</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_1_activate</key>
                 <status>0x90</status>
                 <midino>0x04</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>volume</key>
-                <status>0xB4</status>
-                <midino>0x0C</midino>
                 <options>
                     <normal/>
                 </options>
@@ -1422,24 +963,6 @@
                 <midino>0x04</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x88</status>
-                <midino>0x02</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x9A</status>
-                <midino>0x06</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1494,15 +1017,6 @@
                 <midino>0x04</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x8A</status>
-                <midino>0x02</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1569,28 +1083,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x98</status>
-                <midino>0x04</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_3_activate</key>
                 <status>0x90</status>
                 <midino>0x02</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>filterMid</key>
-                <status>0xB4</status>
-                <midino>0x0A</midino>
                 <options>
                     <normal/>
                 </options>
@@ -1611,24 +1107,6 @@
                 <midino>0x02</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x88</status>
-                <midino>0x00</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x9A</status>
-                <midino>0x04</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1665,15 +1143,6 @@
                 <midino>0x02</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x8A</status>
-                <midino>0x00</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1722,28 +1191,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x98</status>
-                <midino>0x02</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_1_activate</key>
                 <status>0x90</status>
                 <midino>0x00</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>volume</key>
-                <status>0xB4</status>
-                <midino>0x08</midino>
                 <options>
                     <normal/>
                 </options>
@@ -1764,15 +1215,6 @@
                 <midino>0x00</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_3_activate</key>
-                <status>0x9A</status>
-                <midino>0x02</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1812,6 +1254,15 @@
                 </options>
             </control>
             <control>
+                <group>[Channel1]</group>
+                <key>KANE_QuNeo.sliderCycle</key>
+                <status>0x94</status>
+                <midino>0x00</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_10_clear</key>
                 <status>0x80</status>
@@ -1840,38 +1291,11 @@
             </control>
             <control>
                 <group>[Sampler1]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x98</status>
-                <midino>0x00</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>pregain</key>
-                <status>0xB4</status>
-                <midino>0x06</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
                 <key>KANE_QuNeo.deck3JumpLoop1</key>
                 <status>0x99</status>
                 <midino>0x00</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_1_activate</key>
-                <status>0x9A</status>
-                <midino>0x00</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -1902,15 +1326,6 @@
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>pregain</key>
-                <status>0xB4</status>
-                <midino>0x04</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_10_clear</key>
                 <status>0x90</status>
@@ -1929,8 +1344,8 @@
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>KANE_QuNeo.deck2Zoom</key>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.verticalSlider3Touch</key>
                 <status>0xB4</status>
                 <midino>0x02</midino>
                 <options>
@@ -1983,8 +1398,8 @@
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>KANE_QuNeo.deck1Zoom</key>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.verticalSlider1Touch</key>
                 <status>0xB4</status>
                 <midino>0x00</midino>
                 <options>
@@ -2172,15 +1587,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x88</status>
-                <midino>0x1F</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_14_activate</key>
                 <status>0x80</status>
@@ -2193,15 +1599,6 @@
                 <group>[Sampler2]</group>
                 <key>reloop_exit</key>
                 <status>0x89</status>
-                <midino>0x1F</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x8A</status>
                 <midino>0x1F</midino>
                 <options>
                     <normal/>
@@ -2235,15 +1632,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x88</status>
-                <midino>0x1D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_16_activate</key>
                 <status>0x80</status>
@@ -2259,24 +1647,6 @@
                 <midino>0x1B</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x8A</status>
-                <midino>0x1D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x98</status>
-                <midino>0x1F</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -2304,24 +1674,6 @@
                 <midino>0x1D</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x88</status>
-                <midino>0x1B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x9A</status>
-                <midino>0x1F</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -2361,30 +1713,12 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x8A</status>
-                <midino>0x1B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Sampler4]</group>
                 <key>KANE_QuNeo.deck6JumpOff8</key>
                 <status>0x8B</status>
                 <midino>0x1B</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x98</status>
-                <midino>0x1D</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -2412,24 +1746,6 @@
                 <midino>0x1B</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x88</status>
-                <midino>0x19</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x9A</status>
-                <midino>0x1D</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -2469,30 +1785,12 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x8A</status>
-                <midino>0x19</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Sampler4]</group>
                 <key>KANE_QuNeo.deck6JumpOff2</key>
                 <status>0x8B</status>
                 <midino>0x19</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x98</status>
-                <midino>0x1B</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -2523,37 +1821,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x88</status>
-                <midino>0x17</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_16_activate</key>
-                <status>0x9A</status>
-                <midino>0x1B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_10_activate</key>
                 <status>0x80</status>
                 <midino>0x15</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>beatsync</key>
-                <status>0x89</status>
-                <midino>0x17</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2568,6 +1839,15 @@
                 </options>
             </control>
             <control>
+                <group>[Sampler2]</group>
+                <key>beatsync</key>
+                <status>0x89</status>
+                <midino>0x17</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
                 <group>[Channel2]</group>
                 <key>loop_halve</key>
                 <status>0x81</status>
@@ -2578,27 +1858,9 @@
             </control>
             <control>
                 <group>[Sampler4]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x8A</status>
-                <midino>0x17</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
                 <key>beatsync</key>
                 <status>0x8B</status>
                 <midino>0x17</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x98</status>
-                <midino>0x19</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2626,24 +1888,6 @@
                 <key>beatsync</key>
                 <status>0x91</status>
                 <midino>0x17</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x88</status>
-                <midino>0x15</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_14_activate</key>
-                <status>0x9A</status>
-                <midino>0x19</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2686,27 +1930,9 @@
             </control>
             <control>
                 <group>[Sampler4]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x8A</status>
-                <midino>0x15</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
                 <key>loop_halve</key>
                 <status>0x8B</status>
                 <midino>0x15</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x98</status>
-                <midino>0x17</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2734,24 +1960,6 @@
                 <key>loop_halve</key>
                 <status>0x91</status>
                 <midino>0x15</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x88</status>
-                <midino>0x13</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x9A</status>
-                <midino>0x17</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2784,28 +1992,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x8A</status>
-                <midino>0x13</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Sampler4]</group>
                 <key>cue_default</key>
                 <status>0x8B</status>
                 <midino>0x13</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x98</status>
-                <midino>0x15</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2833,24 +2023,6 @@
                 <key>cue_default</key>
                 <status>0x91</status>
                 <midino>0x13</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x88</status>
-                <midino>0x11</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x9A</status>
-                <midino>0x15</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2883,21 +2055,12 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x8A</status>
-                <midino>0x11</midino>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.assertLEDOn</key>
+                <status>0x87</status>
+                <midino>0x0F</midino>
                 <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x98</status>
-                <midino>0x13</midino>
-                <options>
-                    <normal/>
+                    <script-binding/>
                 </options>
             </control>
             <control>
@@ -2923,24 +2086,6 @@
                 <key>filterMidKill</key>
                 <status>0x91</status>
                 <midino>0x11</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x88</status>
-                <midino>0x0F</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_12_activate</key>
-                <status>0x9A</status>
-                <midino>0x13</midino>
                 <options>
                     <normal/>
                 </options>
@@ -2973,15 +2118,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x8A</status>
-                <midino>0x0F</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Sampler3]</group>
                 <key>cue_default</key>
                 <status>0x8B</status>
@@ -2991,12 +2127,21 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x98</status>
+                <group>[Channel1]</group>
+                <key>KANE_QuNeo.reset1Beat</key>
+                <status>0x97</status>
                 <midino>0x11</midino>
                 <options>
-                    <normal/>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.assertLEDOn</key>
+                <status>0x87</status>
+                <midino>0x0D</midino>
+                <options>
+                    <script-binding/>
                 </options>
             </control>
             <control>
@@ -3022,24 +2167,6 @@
                 <key>cue_default</key>
                 <status>0x91</status>
                 <midino>0x0F</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x88</status>
-                <midino>0x0D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_10_activate</key>
-                <status>0x9A</status>
-                <midino>0x11</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3072,17 +2199,8 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x8A</status>
-                <midino>0x0D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>KANE_QuNeo.reset2Beat</key>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.assert15LEDs</key>
                 <status>0x97</status>
                 <midino>0x0F</midino>
                 <options>
@@ -3090,15 +2208,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x98</status>
-                <midino>0x0F</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_6_activate</key>
                 <status>0x90</status>
@@ -3121,24 +2230,6 @@
                 <key>filterMidKill</key>
                 <status>0x91</status>
                 <midino>0x0D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x88</status>
-                <midino>0x0B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x9A</status>
-                <midino>0x0F</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3175,15 +2266,6 @@
                 <key>loop_halve</key>
                 <status>0x81</status>
                 <midino>0x09</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x8A</status>
-                <midino>0x0B</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3199,7 +2281,7 @@
             </control>
             <control>
                 <group>[Master]</group>
-                <key>KANE_QuNeo.toggleVisualizer</key>
+                <key>KANE_QuNeo.assert5LEDs</key>
                 <status>0x97</status>
                 <midino>0x0D</midino>
                 <options>
@@ -3216,15 +2298,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x98</status>
-                <midino>0x0D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_8_activate</key>
                 <status>0x90</status>
@@ -3247,24 +2320,6 @@
                 <key>beatsync</key>
                 <status>0x91</status>
                 <midino>0x0B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x88</status>
-                <midino>0x09</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x9A</status>
-                <midino>0x0D</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3292,15 +2347,6 @@
                 <key>filterMidKill</key>
                 <status>0x9B</status>
                 <midino>0x0D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x8A</status>
-                <midino>0x09</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3333,15 +2379,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x98</status>
-                <midino>0x0B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_6_activate</key>
                 <status>0x90</status>
@@ -3369,24 +2406,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x88</status>
-                <midino>0x07</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_8_activate</key>
-                <status>0x9A</status>
-                <midino>0x0B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_2_activate</key>
                 <status>0x80</status>
@@ -3400,15 +2419,6 @@
                 <key>beatsync</key>
                 <status>0x9B</status>
                 <midino>0x0B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x8A</status>
-                <midino>0x07</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3459,28 +2469,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x98</status>
-                <midino>0x09</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_4_activate</key>
                 <status>0x90</status>
                 <midino>0x07</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>filterLow</key>
-                <status>0xB4</status>
-                <midino>0x0F</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3501,24 +2493,6 @@
                 <midino>0x07</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x88</status>
-                <midino>0x05</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_6_activate</key>
-                <status>0x9A</status>
-                <midino>0x09</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -3555,15 +2529,6 @@
                 <midino>0x07</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x8A</status>
-                <midino>0x05</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -3612,28 +2577,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x98</status>
-                <midino>0x07</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_2_activate</key>
                 <status>0x90</status>
                 <midino>0x05</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>filterHigh</key>
-                <status>0xB4</status>
-                <midino>0x0D</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3654,24 +2601,6 @@
                 <midino>0x05</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x88</status>
-                <midino>0x03</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x9A</status>
-                <midino>0x07</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -3726,15 +2655,6 @@
                 <midino>0x05</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x8A</status>
-                <midino>0x03</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -3801,15 +2721,6 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler2]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x98</status>
-                <midino>0x05</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Master]</group>
                 <key>KANE_QuNeo.assertLEDOn</key>
                 <status>0x87</status>
@@ -3823,15 +2734,6 @@
                 <key>hotcue_4_activate</key>
                 <status>0x90</status>
                 <midino>0x03</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>filterLow</key>
-                <status>0xB4</status>
-                <midino>0x0B</midino>
                 <options>
                     <normal/>
                 </options>
@@ -3852,24 +2754,6 @@
                 <midino>0x03</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x88</status>
-                <midino>0x01</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler4]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x9A</status>
-                <midino>0x05</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -3906,15 +2790,6 @@
                 <midino>0x03</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x8A</status>
-                <midino>0x01</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -3963,28 +2838,10 @@
                 </options>
             </control>
             <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x98</status>
-                <midino>0x03</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel1]</group>
                 <key>hotcue_2_activate</key>
                 <status>0x90</status>
                 <midino>0x01</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>filterHigh</key>
-                <status>0xB4</status>
-                <midino>0x09</midino>
                 <options>
                     <normal/>
                 </options>
@@ -4005,15 +2862,6 @@
                 <midino>0x01</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_4_activate</key>
-                <status>0x9A</status>
-                <midino>0x03</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -4072,29 +2920,11 @@
             </control>
             <control>
                 <group>[Master]</group>
-                <key>KANE_QuNeo.assertLEDs</key>
+                <key>KANE_QuNeo.assert13LEDs</key>
                 <status>0x97</status>
                 <midino>0x01</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler1]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x98</status>
-                <midino>0x01</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>rate</key>
-                <status>0xB4</status>
-                <midino>0x07</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -4104,15 +2934,6 @@
                 <midino>0x01</midino>
                 <options>
                     <script-binding/>
-                </options>
-            </control>
-            <control>
-                <group>[Sampler3]</group>
-                <key>hotcue_2_activate</key>
-                <status>0x9A</status>
-                <midino>0x01</midino>
-                <options>
-                    <normal/>
                 </options>
             </control>
             <control>
@@ -4143,15 +2964,6 @@
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>rate</key>
-                <status>0xB4</status>
-                <midino>0x05</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
                 <group>[Channel2]</group>
                 <key>hotcue_11_clear</key>
                 <status>0x90</status>
@@ -4170,8 +2982,8 @@
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>KANE_QuNeo.deck2Cursor</key>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.verticalSlider4Touch</key>
                 <status>0xB4</status>
                 <midino>0x03</midino>
                 <options>
@@ -4215,8 +3027,8 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
-                <key>KANE_QuNeo.deck1Cursor</key>
+                <group>[Master]</group>
+                <key>KANE_QuNeo.verticalSlider2Touch</key>
                 <status>0xB4</status>
                 <midino>0x01</midino>
                 <options>
