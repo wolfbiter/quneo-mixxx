@@ -1,6 +1,10 @@
-#About
-![QuNeo Diagram](https://raw.github.com/wolfbiter/quneo-mixxx/master/quneo-mixxx-controls.png)
 
+# Deprecated.
+This was a pre-1.0 version;
+[The new one can be found here](https://github.com/wolfbiter/kane-quneo-mixxx).
+
+-------
+#About
 This repository contains all the components necessary to link a QuNeo to Mixxx with
 my customized set of controls and LED's.
 
