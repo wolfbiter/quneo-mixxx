@@ -189,7 +189,7 @@
 	<group>[Channel1]</group>
 	<key>KANE_QuNeo.deck1Cue8Deactivate</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1260,7 +1260,7 @@
 	<status>0x91</status>
 	<midino>0x06</midino>
 	<group>[Channel1]</group>
-	<key>KANE_QuNeo.reloop1</key>
+	<key>KANE_QuNeo.deck1reloop</key>
 	<options>
 	  <Script-Binding/>
 	</options>
@@ -1278,9 +1278,9 @@
 	<status>0x91</status>
 	<midino>0x08</midino>
 	<group>[Channel1]</group>
-	<key>loop_double</key>
+	<key>KANE_QuNeo.deck1loop_double</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1288,17 +1288,14 @@
 	<midino>0x08</midino>
 	<group>[Channel1]</group>
 	<key>loop_double</key>
-	<options>
-	  <normal/>
-	</options>
       </control>
       <control>
 	<status>0x91</status>
 	<midino>0x09</midino>
 	<group>[Channel1]</group>
-	<key>loop_halve</key>
+	<key>KANE_QuNeo.deck1loop_halve</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1306,9 +1303,6 @@
 	<midino>0x09</midino>
 	<group>[Channel1]</group>
 	<key>loop_halve</key>
-	<options>
-	  <normal/>
-	</options>
       </control>
 
       <!-- Channel 2 Looping -->
@@ -1415,7 +1409,7 @@
 	<status>0x91</status>
 	<midino>0x1f</midino>
 	<group>[Channel2]</group>
-	<key>KANE_QuNeo.reloop2</key>
+	<key>KANE_QuNeo.deck2reloop</key>
 	<options>
 	  <Script-Binding/>
 	</options>
@@ -1424,9 +1418,9 @@
 	<status>0x91</status>
 	<midino>0x14</midino>
 	<group>[Channel2]</group>
-	<key>loop_double</key>
+	<key>KANE_QuNeo.deck2loop_double</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1434,17 +1428,14 @@
 	<midino>0x14</midino>
 	<group>[Channel2]</group>
 	<key>loop_double</key>
-	<options>
-	  <normal/>
-	</options>
       </control>
       <control>
 	<status>0x91</status>
 	<midino>0x15</midino>
 	<group>[Channel2]</group>
-	<key>loop_halve</key>
+	<key>KANE_QuNeo.deck2loop_halve</key>
 	<options>
-	  <normal/>
+	  <Script-Binding/>
 	</options>
       </control>
       <control>
@@ -1452,9 +1443,6 @@
 	<midino>0x15</midino>
 	<group>[Channel2]</group>
 	<key>loop_halve</key>
-	<options>
-	  <normal/>
-	</options>
       </control>
       <control>
 	<status>0x91</status>

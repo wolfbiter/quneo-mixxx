@@ -7,16 +7,13 @@
 
 # make sure there is a first arg
 if [ -z $1 ]; then
-	echo "usage: first arg is the target dir"
+	echo "usage: first arg is the target dir or machine"
 	return -1
 fi
 
 # requires location to export to as first arg $1
 USB=$1
 echo "EXPORTING QUNEO-MIXXX DIR TO URI: "$USB
-
-# make root folder
-mkdir -p $USB/quneo-mixxx
 
 # find where script is located
 DIR=$(cd $(dirname "$0"); pwd)
@@ -26,5 +23,5 @@ $DIR/export-music $USB
 $DIR/export-configs $USB
 
 # copy whole quneo-mixxx folder to location, minus subdirs music/ mixxx/
-# .git/ and ugly/
-rsync -a $DIR/../../quneo-mixxx $USB/ --exclude=mixxx --exclude=.git --exclude=music --exclude=ugly
+# .git/ .mixxx/ and ugly/
+rsync -rKi --progress --inplace --delete $DIR/../../quneo-mixxx $USB --exclude=mixxx --exclude=.git --exclude=music --exclude=ugly --exclude=.mixxx

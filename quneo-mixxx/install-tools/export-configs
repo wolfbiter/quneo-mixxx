@@ -6,7 +6,7 @@
 
 # make sure there is a first arg
 if [ -z $1 ]; then
-	echo "usage: first arg is the target dir"
+	echo "usage: first arg is the target dir or machine"
 	return -1
 fi
 
@@ -17,16 +17,17 @@ echo "EXPORTING CONFIGS TO URI: "$USB
 # find where script is located
 DIR=$(cd $(dirname "$0"); pwd)
 
-# find out where the music dir is located
+# find out where the music dir is located based on setting
 MUSICDIR=$(head -n 1 $DIR/musicdir)
 
 # update this installation's information
-cp -rf ~/.mixxx/ $DIR/../
-cp -rvf $MUSICDIR/RealBest/added/ $DIR/../music/RealBest/
+rsync -ri --progress --inplace --delete ~/.mixxx $DIR/../
+rsync -ri --progress --inplace --delete $MUSICDIR/RealBest/added $DIR/../music/RealBest/
 
-# copy most recent stuff to given arg's quneo-mixxx directory
-mkdir -p $USB/quneo-mixxx/.mixxx
-sudo cp -r $DIR/../.mixxx $USB/quneo-mixxx/
-mkdir -p $USB/quneo-mixxx/music/RealBest/added
-sudo cp -vr $DIR/../music/RealBest/added/ $USB/quneo-mixxx/music/RealBest/
+# make target's music dir in case it doesn't exist
+mkdir -p $USB/quneo-mixxx/music/RealBest
+
+# sync most recent stuff with given arg's quneo-mixxx directory
+rsync --progress -riK $DIR/../.mixxx $USB/quneo-mixxx
+rsync -riK --progress $DIR/../music/RealBest/added $USB/quneo-mixxx/music/RealBest
 
