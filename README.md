@@ -1,13 +1,11 @@
-#Updates in progress.
-The last working and consistent commit is "updated folder scheme".
-
 #About
+![QuNeo Diagram](https://raw.github.com/wolfbiter/quneo-mixxx/master/quneo-mixxx-controls.png)
 
 This repository contains all the components necessary to link a QuNeo to Mixxx with
 my customized set of controls and LED's.
 
-###Included is a visual of the controls
-Take a look at quneo-mixxx-controls.png
+###Included is a series of visuals of the controls
+Take a look at the diagrams folder.
 
 ###NOTE: The usage guide assumes the user already has Mixxx installed.
 A quick googling of Mixxx should offer plenty of installation information.
